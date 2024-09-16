@@ -14,11 +14,11 @@
     ]
   },
   "interests": [
-    { "name": "Product Management & Strategy" },
-    { "name": "Prototyping & Wireframing (Figma, Canva)" },
-    { "name": "3D Graphics & Data Visualization" },
-    { "name": "System Integration & API Management" },
-    { "name": "Agile & Lean Methodologies" }
+    { "name": "Product Management and Strategy" },
+    { "name": "Prototyping and Wireframing (Figma, Canva)" },
+    { "name": "3D Graphics and Data Visualization" },
+    { "name": "System Integration and API Management" },
+    { "name": "Agile and Lean Methodologies" }
   ],
   "skills": [
     {
@@ -35,7 +35,7 @@
       "institution": "Oakland University, MI, USA ",
       "area": "Information Technology Management (2023)",
       "studyType": "M.S.",
-      "startDate": "2022-01,
+      "startDate": "2022-01",
       "endDate": "2023-12",
       "courses": [ "Intro Database/Data Warehouse", "System Analysis & Design" , "Project Management" , "Business IT Collaboration" , "Business Application Technology", "Digital Innovation" , "IS Risk Analysis" , "Project Seminar"
       ]
@@ -46,7 +46,7 @@
       "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya, M.P., India",
       "area": "Computer Science (2017)",
       "studyType": "B.S.",
-      "startDate": "2013-08,
+      "startDate": "2013-08",
       "endDate": "2017-05",
       "courses": [ "Data structures & Algorithm" , "Computer Networking" , "Operating System" , "Object Oriented Programming" , "Web Development"]
     }
