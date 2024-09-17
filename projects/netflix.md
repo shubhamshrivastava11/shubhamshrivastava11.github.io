@@ -4,7 +4,7 @@ type: project
 image: img/Netflix-new-icon.png
 title: "Netflix Ad Recommendation System"
 # All dates must be YYYY-MM-DD format!
-date: 2024
+date: 2024-09-15
 published: true
 labels:
   - Machine Learning
@@ -58,4 +58,4 @@ This data-driven approach allows for an optimized ad recommendation strategy, en
 
 <hr>
 
-
+Source: <a href="https://github.com/shubhamshrivastava11"><i class="large github icon"></i>shubhamshrivastava11/netflix-ad-recommendation</a>
