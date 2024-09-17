@@ -56,7 +56,7 @@
       "position": "Product Manager Intern",
       "location": "Austin, TX (Remote)",
       "startDate": "2024-03-04",
-      "endDate": "Present"
+      "endDate": "2024-09-09"
       "highlights": [
         "Worked on Netflix Ad recommendation to improve ad personalization.",
         "Built end-to-end data pipleline using MySQL and Power BI for data processing and visualization"
@@ -111,19 +111,6 @@
       "highlights": [
         "Design firmware for distributed weather sensor network",
         "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
