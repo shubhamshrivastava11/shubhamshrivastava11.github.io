@@ -1,34 +1,23 @@
-/* Rubik Dark Theme: modifies the default Rubik theme to use a dark mode with chunkier Rubik font for headers */
+/* Rubik Theme: modifies the default theme to use the chunkier Rubik for the header fonts. */
 
-/* Use Open Sans for body text and Rubik for headlines */
+/* Use Open Sans as the default font and Roboto for headlines */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* Dark theme with Rubik headers */
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-font-headlines: "Rubik", sans-serif;
-  --bs-link-color: #4CAF50; /* Lime green link color */
-  --tf-pill-bg: #2E7D32; /* Dark green background for pills */
-  --tf-icon-fill: #4CAF50; /* Green fill for icons */
-  --tf-icon-hover: #81C784; /* Lighter green on hover */
-  --tf-page-bg-color: #1d1f21; /* Dark page background */
-  --tf-footer-bg-color: #161819; /* Dark footer background */
-  --tf-projects-bg-color: #2E7D32; /* Green-toned background for projects */
-  --bs-body-color: #e0e0e0; /* Light text color */
-  --bs-border-color: #444; /* Subtle border color */
+  --bs-link-color: var(--bs-blue);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-body {
-  background-color: var(--tf-page-bg-color);
-  color: var(--bs-body-color);
-  font-family: var(--bs-font-sans-serif);
-}
-
-/* Headers styled with the chunkier Rubik font and green accent */
-h1, h2, h3, h4, h5 {
-  font-family: var(--bs-font-headlines);
-  color: #4CAF50; /* Green headline color */
+h1,h2,h3,h4,h5 {
+  font-family: Rubik;
 }
 
 /* Format social media icons */
@@ -45,23 +34,8 @@ h1, h2, h3, h4, h5 {
   fill: var(--tf-icon-hover);
 }
 
-/* Links styled with green color */
 a {
-  color: var(--bs-link-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: var(--tf-icon-hover); /* Lighter green on hover */
-}
-
-/* Navbar styling for dark mode */
-.navbar {
-  background-color: var(--tf-page-bg-color);
-}
-
-.navbar-brand, .navbar-brand-mobile {
-  color: var(--bs-body-color);
 }
 
 @media (max-width: 500px) {
@@ -74,53 +48,8 @@ a:hover {
   }
 }
 
-/* Card styling for dark theme */
+/* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--tf-page-bg-color);
+  background-color: var(--bs-white);
   border-top: none;
-  color: var(--bs-body-color);
-}
-
-/* Card header and body styled with green tones and dark backgrounds */
-.card-header {
-  background-color: var(--tf-projects-bg-color);
-  color: var(--bs-body-color);
-  border-bottom: 1px solid var(--bs-border-color);
-}
-
-.card-body {
-  background-color: #243524; /* Darker green-toned background */
-  color: var(--bs-body-color);
-}
-
-.card {
-  border: 1px solid var(--bs-border-color);
-}
-
-/* Button styling with green accents */
-.btn-primary {
-  background-color: var(--bs-link-color);
-  border-color: var(--bs-link-color);
-  color: #fff;
-}
-
-.btn-primary:hover {
-  background-color: var(--tf-icon-hover);
-  border-color: var(--tf-icon-hover);
-}
-
-/* Footer styling for dark mode */
-footer {
-  background-color: var(--tf-footer-bg-color);
-  color: var(--bs-body-color);
-  padding: 20px;
-  text-align: center;
-}
-
-footer a {
-  color: var(--bs-link-color);
-}
-
-footer a:hover {
-  color: var(--tf-icon-hover);
 }
