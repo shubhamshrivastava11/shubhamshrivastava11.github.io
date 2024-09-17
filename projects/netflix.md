@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Netflix-new-icon.png
+image: img/Neflix-image.png
 title: "Netflix Ad Recommendation System"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-15
@@ -15,7 +15,7 @@ labels:
   - MySQL
 summary: "A machine learning-based ad recommendation system designed to enhance personalization and user engagement for Netflix."
 ---
-<img class="img-fluid" src="img/Netflix-new-icon.png">
+<img class="img-fluid" src="img/Neflix-image.png">
 
 Netflix Ad Recommendation System is a machine learning project aimed at enhancing ad personalization for Netflix users. By analyzing user behavior, preferences, and watch history, this system delivers targeted ads that balance user satisfaction and advertiser goals.
 
@@ -48,7 +48,7 @@ Key Milestones
 
 Key Visualized Metrics Include:
 - Subscription Plan Insights: A breakdown of users by subscription type (Premium, Standard, Basic) to identify customer segments and optimize ad placements accordingly.
-- Geographic Distribution: A map highlights user locations across the U.S., facilitating location-based ad targeting to improve relevance and ad campaign effectiveness.
+- Geographic Distribution: A map highlights user locations across the United States, facilitating location-based ad targeting to improve relevance and ad campaign effectiveness.
 - Payment Method Analysis: Insights into total payments by method, offering valuable data for aligning payment preferences with targeted promotions and partnerships.
 - Genre-based User Engagement: Analysis of preferred genres (e.g., Documentary, Drama, Comedy) to tailor ads based on content consumption patterns, increasing the likelihood of ad engagement.
 
