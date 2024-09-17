@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/MyResidentAssistant-icon.png
+image: img/resident-assistant.png
 title: "MyResidentAssistant.com"
 # All dates must be YYYY-MM-DD format!
 date: 2022-12-05
@@ -12,9 +12,11 @@ labels:
   - Mobile App
   - Student Services
   - Figma
+  - Project Management
+  - Risk Analysis
 summary: "MyResidentAssistant.com is a comprehensive information service platform designed to assist students with car rentals, apartment leasing, furniture, and book purchases, all in one place."
 ---
-<img class="img-fluid" src="img/MyResidentAssistant-icon.png">
+<img class="img-fluid" src="img/resident-assistant.png">
 
 MyResidentAssistant.com is a revolutionary platform designed to ease the transition for students moving to a new city or country. This comprehensive information service provides students with a single destination for finding essential services like car rentals, apartment leases, furniture, and books, reducing the stress of relocating and focusing on studies.
 
