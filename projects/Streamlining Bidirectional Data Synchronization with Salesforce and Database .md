@@ -1,10 +1,10 @@
 ---
 layout: project
 type: project
-image: img/Neflix-image.png
+image: img/mule.png
 title: "Salesforce and MySQL Bidirectional Synchronization System"
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-15
+date: 2023-12-15
 published: true
 labels:
   - Java
@@ -15,7 +15,7 @@ labels:
   - Data Integration
 summary: "A bidirectional synchronization system designed to facilitate seamless data exchange between Salesforce and MySQL using the JDBC protocol."
 ---
-<img class="img-fluid" src="img/Neflix-image.png">
+<img class="img-fluid" src="img/mule.png">
 
 **Abstract**
 
