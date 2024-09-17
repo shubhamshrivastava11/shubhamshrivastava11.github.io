@@ -4,7 +4,6 @@ type: project
 image: img/335829104-33a2ce05-fb89-46da-b3c1-0e508ba04260.jpg
 title: "Theater Production Management System"
 # All dates must be YYYY-MM-DD format!
-date: 2022
 published: true
 labels:
   - SQL Server
