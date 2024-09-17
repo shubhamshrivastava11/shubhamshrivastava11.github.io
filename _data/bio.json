@@ -56,7 +56,7 @@
   ],
   "education": [
     {
-      "institution": "Oakland University, MI, USA",
+      "institution": "Oakland University, Michigan, USA",
       "area": "Information Technology Management",
       "studyType": "M.S.",
       "startDate": "2022-01-05",
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "organization": "Deptartment of Financial Services (Oakland University)",
+      "company": "Deptartment of Financial Services, Oakland University",
       "website": "https://oakland.edu/",
       "position": "Project Coordinator",
       "startDate": "2022-05-26",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "organization": "Streetingo Inc",
+      "company": "Streetingo Inc",
       "location": "New Delhi, India",
       "position": "Product Manager",
       "startDate": "2020-12-01",
