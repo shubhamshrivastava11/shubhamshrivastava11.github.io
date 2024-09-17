@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/netflix/netflix-square.png
+image: img/Netflix-new-icon.png
 title: "Netflix Ad Recommendation System"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-15
@@ -20,7 +20,7 @@ Here's a refined version for your Netflix Ad Recommendation System, incorporatin
 
 ---
 
-<img class="img-fluid" src="../img/netflix/netflix-header.png">
+<img class="img-fluid" src="img/Netflix-new-icon.png">
 
 Netflix Ad Recommendation System is a machine learning project designed to enhance ad personalization for Netflix users. By analyzing user behavior, preferences, and watch history, this system delivers targeted ads that balance user satisfaction and advertiser goals.
 
