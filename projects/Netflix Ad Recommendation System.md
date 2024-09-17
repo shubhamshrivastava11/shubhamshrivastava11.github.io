@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Neflix-image.png
+image: img/n1.png
 title: "Netflix Ad Recommendation System"
 # All dates must be YYYY-MM-DD format!
 date: "2024"
@@ -15,7 +15,7 @@ labels:
   - MySQL
 summary: "A machine learning-based ad recommendation system designed to enhance personalization and user engagement for Netflix."
 ---
-<img class="img-fluid" src="img/Neflix-image.png">
+<img class="img-fluid" src="img/n1.png">
 
 Netflix Ad Recommendation System is a machine learning project aimed at enhancing ad personalization for Netflix users. By analyzing user behavior, preferences, and watch history, this system delivers targeted ads that balance user satisfaction and advertiser goals.
 
