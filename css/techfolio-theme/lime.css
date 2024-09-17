@@ -1,41 +1,32 @@
-/* Lime Dark Theme: modifies the default Lime theme to use dark mode with green accents */
+/* Lime Theme: modifies the default theme to inject a wee bit o' green in various places. */
 
-/* Use Open Sans as the default font */
+/* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* Dark theme with lime green variables */
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-green1: #4CAF50; /* Lime green for key accents */
-  --tf-green2: #81C784; /* Lighter green for hover */
-  --tf-green3: #A5D6A7;
-  --tf-green4: #2E7D32; /* Darker green */
+  --tf-green1: #136c14;
+  --tf-green2: #4FA64F;
+  --tf-green3: #85C285;
+  --tf-green4: #e0f2df;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-green1);
   --tf-pill-bg: var(--tf-green3);
   --tf-icon-fill: var(--tf-green1);
   --tf-icon-hover: var(--tf-green2);
-  --tf-page-bg-color: #1d1f21; /* Dark page background */
-  --tf-footer-bg-color: #161819; /* Dark footer background */
-  --tf-projects-bg-color: #2E7D32; /* Darker background for projects with a green hue */
-  --bs-body-color: #e0e0e0; /* Light text color for readability */
-  --bs-border-color: #444; /* Subtle borders */
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--tf-green4);
+  --tf-projects-bg-color: var(--tf-green4);
 }
 
-body {
-  background-color: var(--tf-page-bg-color);
-  color: var(--bs-body-color);
-  font-family: var(--bs-font-sans-serif);
-}
-
-/* Headings styled with green for emphasis */
-h1, h2, h3, h4, h5 {
+h1,h2,h3,h4,h5 {
   color: var(--tf-green1);
 }
 
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
+  fill: var(--tf-green1);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -46,27 +37,8 @@ h1, h2, h3, h4, h5 {
   fill: var(--tf-icon-hover);
 }
 
-/* Link colors */
 a {
-  color: var(--bs-link-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: var(--tf-green2); /* Lighter green on hover */
-}
-
-/* Navbar styling for dark mode */
-.navbar {
-  background-color: var(--tf-page-bg-color);
-}
-
-.navbar-brand {
-  color: var(--bs-body-color);
-}
-
-.navbar-brand-mobile {
-  color: var(--bs-body-color);
 }
 
 @media (max-width: 500px) {
@@ -79,53 +51,8 @@ a:hover {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards */
+/* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--tf-page-bg-color);
+  background-color: var(--bs-white);
   border-top: none;
-  color: var(--bs-body-color);
-}
-
-/* Card header and body styled with green tones and dark backgrounds */
-.card-header {
-  background-color: var(--tf-projects-bg-color);
-  color: var(--bs-body-color);
-  border-bottom: 1px solid var(--bs-border-color);
-}
-
-.card-body {
-  background-color: #243524; /* Darker green-toned background */
-  color: var(--bs-body-color);
-}
-
-.card {
-  border: 1px solid var(--bs-border-color);
-}
-
-/* Button styling for lime accent */
-.btn-primary {
-  background-color: var(--tf-green1);
-  border-color: var(--tf-green1);
-  color: #fff;
-}
-
-.btn-primary:hover {
-  background-color: var(--tf-green2);
-  border-color: var(--tf-green2);
-}
-
-/* Footer styling */
-footer {
-  background-color: var(--tf-footer-bg-color);
-  color: var(--bs-body-color);
-  padding: 20px;
-  text-align: center;
-}
-
-footer a {
-  color: var(--bs-link-color);
-}
-
-footer a:hover {
-  color: var(--tf-green2);
 }
