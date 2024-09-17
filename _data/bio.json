@@ -37,8 +37,7 @@
       "studyType": "M.S.",
       "startDate": "2022-01-05",
       "endDate": "2023-12-16",
-      "courses": [ "Intro Database/Data Warehouse", "System Analysis and Design" , "Project Management" , "Business IT Collaboration" , "Business Application Technology", "Digital Innovation" , "IS Risk Analysis" , "Project Seminar"
-      ]
+      "courses": [ "Intro Database/Data Warehouse", "System Analysis and Design" , "Project Management" , "Business IT Collaboration" , "Business Application Technology", "Digital Innovation" , "IS Risk Analysis" , "Project Seminar"]
     }
   ], 
   [
@@ -50,7 +49,7 @@
       "endDate": "2017-05-26",
       "courses": [ "Data structures and Algorithm" , "Computer Networking" , "Operating System" , "Object Oriented Programming" , "Web Development"]
     }
-  ]
+  ],
  
   "references": [
     {
