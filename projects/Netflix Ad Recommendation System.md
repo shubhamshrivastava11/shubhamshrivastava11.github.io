@@ -4,6 +4,7 @@ type: project
 image: img/Neflix-image.png
 title: "Netflix Ad Recommendation System"
 # All dates must be YYYY-MM-DD format!
+date: "2024"
 published: true
 labels:
   - Machine Learning
