@@ -38,7 +38,7 @@ Tech Stack
 - Database: MySQL
 - Deployment: Docker, AWS
 - Visualization Tools: Power BI, matplotlib
-- Prototyping: Figma for UX designing
+- Prototyping: Figma for UX design
 
 Key Milestones
 - Data Collection: User data ingestion pipeline using Python-based data processing.
@@ -48,7 +48,7 @@ Key Milestones
 
 Key Visualized Metrics Include:
 - Subscription Plan Insights: A breakdown of users by subscription type (Premium, Standard, Basic) to identify customer segments and optimize ad placements accordingly.
-- Geographic Distribution: A map highlights user locations across the United States, facilitating location-based ad targeting to improve relevance and ad campaign effectiveness.
+- Geographic Distribution: A map highlighting user locations across the United States, facilitating location-based ad targeting to improve relevance and ad campaign effectiveness.
 - Payment Method Analysis: Insights into total payments by method, offering valuable data for aligning payment preferences with targeted promotions and partnerships.
 - Genre-based User Engagement: Analysis of preferred genres (e.g., Documentary, Drama, Comedy) to tailor ads based on content consumption patterns, increasing the likelihood of ad engagement.
 
@@ -58,4 +58,4 @@ This data-driven approach allows for an optimized ad recommendation strategy, en
 
 <hr>
 
-Source: <a href="https://github.com/shubhamshrivastava11"><i class="large github icon"></i>shubhamshrivastava11/netflix-ad-recommendation</a>
+Source: <a href="https://github.com/shubhamshrivastava11/NetflixAdRecommendation"><i class="large github icon"></i>shubhamshrivastava11/netflix-ad-recommendation</a>
