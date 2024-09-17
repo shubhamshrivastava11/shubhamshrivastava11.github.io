@@ -6,7 +6,7 @@
     "email": "shrivastava@oakland.edu",
     "phone": "224-578-8986",
     "website": "https://shubhamshrivastava11.github.io/",
-    "summary": "I did my Masters in Information Technologyy Management from the School of Business Admnistration at the Oakland University, Michigan.",
+    "summary": "I did my Masters in Information Technologyy Management from the School of Business Admnistration at the Oakland University, Michigan, USA.",
     "location": { "address": "", "postalCode": "78704", "city": "Austin", "countryCode": "USA", "region": "Texas" },
     "profiles": [
       { "network": "github", "username": "shubhamshrivastava11", "url": "https://github.com/shubhamshrivastava11" },
@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "Javascript", "SQL" ]
+      "keywords": [ "Python", "Java", "Figma", "Jira", "Lucid Charts", "Google Analytics" , "Power BI", "Microsoft Suite",  "SQL" ]
     },
     {
       "name": "Toolsets/OS",
@@ -35,8 +35,8 @@
       "institution": "Oakland University, MI, USA ",
       "area": "Information Technology Management (2023)",
       "studyType": "M.S.",
-      "startDate": "2022-01",
-      "endDate": "2023-12",
+      "startDate": "2022-01-05",
+      "endDate": "2023-12-16",
       "courses": [ "Intro Database/Data Warehouse", "System Analysis and Design" , "Project Management" , "Business IT Collaboration" , "Business Application Technology", "Digital Innovation" , "IS Risk Analysis" , "Project Seminar"
       ]
     }
@@ -46,8 +46,8 @@
       "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya, M.P., India",
       "area": "Computer Science (2017)",
       "studyType": "B.S.",
-      "startDate": "2013-08",
-      "endDate": "2017-05",
+      "startDate": "2013-08-08",
+      "endDate": "2017-05-26",
       "courses": [ "Data structures and Algorithm" , "Computer Networking" , "Operating System" , "Object Oriented Programming" , "Web Development"]
     }
   ]
@@ -56,7 +56,7 @@
       "company": "DIT US",
       "position": "Product Manager Intern",
       "location": "Austin, TX (Remote)",
-      "startDate": "2024-03",
+      "startDate": "2024-03-04",
       "endDate": "Present"
       "highlights": [
         "Worked on Netflix Ad recommendation to improve ad personalization.",
@@ -94,8 +94,8 @@
       "organization": "Streetingo Inc.",
       "location" : "New Delhi, India",  
       "position": "Product Manager",
-      "startDate": "2020-12",
-      "endDate": "2021-11",
+      "startDate": "2020-12-01",
+      "endDate": "2021-11-25",
       "summary": "",
       "highlights": [
         "Led the development of the Streetingo application MVP",
@@ -107,8 +107,8 @@
       "organization": " Worldsoft Technologies Pvt Ltd",
       "website": "http://www.worldsofttechnology.com/",
       "position": "Software Development Engineer",
-      "startDate": "2018-01",
-      "endDate": "2020-11",
+      "startDate": "2018-01-01",
+      "endDate": "2020-11-01",
       "summary": "",
       "highlights": [
         "Developed scalable J2EE applications with Java",
