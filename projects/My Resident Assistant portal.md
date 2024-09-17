@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/mra.png
+image: img/mra1.png
 title: "My Resident Assistant Portal"
 # All dates must be YYYY-MM-DD format!
 published: true
@@ -15,7 +15,7 @@ labels:
   - Risk Analysis
 summary: "MyResidentAssistant.com is a comprehensive information service platform designed to assist students with car rentals, apartment leasing, furniture, and book purchases, all in one place."
 ---
-<img class="img-fluid" src="img/mra.png">
+<img class="img-fluid" src="img/mra1.png">
 
 MyResidentAssistant.com is a revolutionary platform designed to ease the transition for students moving to a new city or country. This comprehensive information service provides students with a single destination for finding essential services like car rentals, apartment leases, furniture, and books, reducing the stress of relocating and focusing on studies.
 
