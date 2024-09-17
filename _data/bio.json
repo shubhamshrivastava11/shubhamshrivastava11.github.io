@@ -56,12 +56,11 @@
       "position": "Product Manager Intern",
       "location": "Austin, TX (Remote)",
       "startDate": "2024-03-04",
-      "endDate": "2024-09-09"
+      "endDate": "2024-09-09",
       "highlights": [
         "Worked on Netflix Ad recommendation to improve ad personalization.",
-        "Built end-to-end data pipleline using MySQL and Power BI for data processing and visualization"
-      ]
-      
+        "Built end-to-end data pipleline using MySQL and Power BI for data processing and visualization."
+      ]      
     }   
 ],
 "volunteer": [
