@@ -62,43 +62,7 @@
         "Built end-to-end data pipleline using MySQL and Power BI for data processing and visualization"
       ]
       
-    },
-    {
-      "company": " Openlogix (K2 Company) ",
-      "position": "Product Manager",
-      "location": "Bloomfield Hills, MI "
-      "website": "https://open-logix.com/",
-      "startDate": "2023-06-01",
-      "endDate": "2023-12-15",
-      "summary": "",
-      "highlights": [
-        "Architected Product Roadmap and used Figma for prototyping"
-      ]
-    }
-    {
-      "organization": "Dept. of Financial Services, Oakland University",
-      "website": "https://oakland.edu/",
-      "position": "Project Coordinator",
-      "startDate": "2022-05-26",
-      "endDate": "2023-04-15",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Directed strategic product planning",
-        "Managed a $200,000 budget and mentored 5+ junior team members"
-      ]
- },
-    {
-      "organization": "Streetingo Inc.",
-      "location" : "New Delhi, India",  
-      "position": "Product Manager",
-      "startDate": "2020-12-01",
-      "endDate": "2021-11-25",
-      "summary": "",
-      "highlights": [
-        "Led the development of the Streetingo application MVP",
-        " Developed real-time vendor tracking features"
-      ]
-    }  
+    }   
 ],
 "volunteer": [
     {
