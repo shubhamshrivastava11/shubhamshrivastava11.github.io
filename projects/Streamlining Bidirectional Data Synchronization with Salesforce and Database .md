@@ -4,7 +4,6 @@ type: project
 image: img/mule.png
 title: "Salesforce and MySQL Bidirectional Synchronization System"
 # All dates must be YYYY-MM-DD format!
-date: 2023-12-15
 published: true
 labels:
   - Java
