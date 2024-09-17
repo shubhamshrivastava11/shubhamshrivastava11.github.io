@@ -1,26 +1,17 @@
-/* Bitter Dark Theme: modifies the default theme to use Bitter as the default font in dark mode */
+/* Bitter Theme: modifies the default theme to use Bitter as the default font. */
 
 @import url("https://fonts.googleapis.com/css?family=Bitter:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* Dark theme color variables */
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --bs-font-sans-serif: "Bitter", serif;
-  --bs-link-color: #62dafb; /* Bright link color */
-  --tf-pill-bg: #333; /* Dark background for pills */
-  --tf-icon-fill: #999; /* Icon color in dark mode */
-  --tf-icon-hover: #ddd; /* Icon hover color */
-  --tf-page-bg-color: #1d1f21; /* Dark background for page */
-  --tf-footer-bg-color: #161819; /* Even darker footer */
-  --tf-projects-bg-color: #2d2f31; /* Slightly lighter than the page for contrast */
-  --bs-body-color: #e4e4e4; /* Light font color for readability */
-  --bs-border-color: #444; /* Subtle borders */
-}
-
-/* Dark background and light text color */
-body {
-  background-color: var(--tf-page-bg-color);
-  color: var(--bs-body-color);
-  font-family: var(--bs-font-sans-serif);
+  --bs-font-sans-serif: "Bitter", sans-serif;
+  --bs-link-color: var(--bs-blue);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
 }
 
 /* Format social media icons */
@@ -38,25 +29,7 @@ body {
 }
 
 a {
-  color: var(--bs-link-color);
   text-decoration: none;
-}
-
-a:hover {
-  color: #9ed9f8; /* Lighter link on hover */
-}
-
-/* Navbar styling for dark mode */
-.navbar {
-  background-color: #2d2f31;
-}
-
-.navbar-brand {
-  color: var(--bs-body-color);
-}
-
-.navbar-brand-mobile {
-  color: var(--bs-body-color);
 }
 
 @media (max-width: 500px) {
@@ -69,53 +42,8 @@ a:hover {
   }
 }
 
-/* Simplify the styling of the bottom of cards */
+/* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
-  background-color: var(--tf-page-bg-color);
+  background-color: var(--bs-white);
   border-top: none;
-  color: var(--bs-body-color);
-}
-
-/* Styling for card headers and content */
-.card-header {
-  background-color: #282a2e; /* Slightly lighter for contrast */
-  color: var(--bs-body-color);
-  border-bottom: 1px solid var(--bs-border-color);
-}
-
-.card-body {
-  background-color: var(--tf-projects-bg-color);
-  color: var(--bs-body-color);
-}
-
-.card {
-  border: 1px solid var(--bs-border-color);
-}
-
-/* Button styling for dark mode */
-.btn-primary {
-  background-color: #3b9ac1;
-  border-color: #3b9ac1;
-  color: #fff;
-}
-
-.btn-primary:hover {
-  background-color: #62dafb;
-  border-color: #62dafb;
-}
-
-/* Footer styling */
-footer {
-  background-color: var(--tf-footer-bg-color);
-  color: var(--bs-body-color);
-  padding: 20px;
-  text-align: center;
-}
-
-footer a {
-  color: var(--bs-link-color);
-}
-
-footer a:hover {
-  color: #9ed9f8;
 }
