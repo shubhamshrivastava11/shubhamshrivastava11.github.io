@@ -15,7 +15,7 @@ labels:
   - Data Integration
 summary: "A bidirectional synchronization system designed to facilitate seamless data exchange between Salesforce and MySQL using the JDBC protocol."
 ---
-<img class="img-fluid" src="img/mule.png">
+<img class="img-fluid" src="img/project-image-1">
 
 **Abstract**
 
