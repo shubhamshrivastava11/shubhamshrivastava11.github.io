@@ -32,12 +32,8 @@ Features
 - User-Friendly Interface: Simplifies navigation to essential services and reduces the need for multiple platforms.
 
 Tech Stack
-- Backend: Python, Jupyter Notebook
-- Data Processing: Pandas, Numpy, Python String Collections
-- Database: MySQL
-- Deployment: Docker, AWS
-- Visualization Tools: Power BI, matplotlib
-- Prototyping: Figma for UX design
+- Visualization Tools: Power BI, ERD plus, PMP tools
+- Prototyping: Figma for UX design, Lucid charts
 
 Key Milestones
 - Data Collection: Develop user data ingestion pipelines for efficient data processing.
