@@ -16,7 +16,46 @@ labels:
 summary: "A machine learning-based ad recommendation system designed to enhance personalization and user engagement for Netflix."
 ---
 <img class="img-fluid" src="img/Netflix-new-icon.png">
+
 Netflix Ad Recommendation System is a machine learning project aimed at enhancing ad personalization for Netflix users. By analyzing user behavior, preferences, and watch history, this system delivers targeted ads that balance user satisfaction and advertiser goals.
 
-<hr> <pre> You access the Netflix Ad Recommendation System and encounter a detailed dashboard with various metrics and tools. Overwhelmed by the array of options, you start exploring features designed to optimize ad recommendations and performance. <--------------------help------------------------> Enter quit or one of the following commands - view analyze optimize test visualize help h ? <------------------------------------------------> view The dashboard displays metrics such as Subscription Plan Insights, Geographic Distribution, Payment Method Analysis, and Genre-based User Engagement, offering a comprehensive view for refining ad strategies. analyze Personalized Ad Recommendations employ collaborative filtering and NLP techniques to deliver relevant ads to users. Real-time data processing ensures up-to-date recommendations. optimize Dynamic Ad Insertion integrates ads seamlessly into content breaks, while A/B Testing allows evaluation of different ad formats and placements to optimize performance. test The system includes performance evaluation tools using Scikit-learn and Python libraries to measure user engagement and ad effectiveness. visualize Power BI and matplotlib provide visualizations of key metrics: - Subscription Plan Insights: Segments users by subscription type for optimized ad placement. - Geographic Distribution: Maps user locations for location-based targeting. - Payment Method Analysis: Analyzes payment preferences to align ads with payment trends. - Genre-based User Engagement: Analyzes genre preferences to tailor ads. </pre> <hr>
-Source: <a href="https://github.com/shubhamshrivastava11/NetflixAdRecommendation/blob/main/README.md"><i class="large github icon"></i>shubhamshrivastava11/netflix-ad-recommendation</a>
+<hr>
+
+<pre>
+Overview
+This project focuses on improving Netflix’s ad recommendation system using machine learning algorithms to enhance personalization and user engagement. By analyzing user behavior, preferences, and watch history, the system delivers highly targeted and relevant ads, ensuring an optimal balance between user satisfaction and advertiser needs.
+
+Features
+- Personalized Ad Recommendations: Leverages collaborative filtering and NLP techniques to predict and display relevant ads.
+- Dynamic Ad Insertion: Seamlessly integrates ads into natural content breaks without disrupting the viewing experience.
+- Real-time Data Processing: Continuously analyzes user behavior to update ad recommendations in real-time.
+- A/B Testing: Includes functionality to test multiple ad formats and placements for performance optimization.
+
+Tech Stack
+- Backend: Python, Jupyter Notebook
+- Machine Learning: Scikit-learn (KNN Algorithm)
+- Data Processing: Pandas, Numpy, Python String Collections
+- Database: MySQL
+- Deployment: Docker, AWS
+- Visualization Tools: Power BI, matplotlib
+- Prototyping: Figma for UX designing
+
+Key Milestones
+- Data Collection: User data ingestion pipeline using Python-based data processing.
+- Model Training: Machine learning models (e.g., collaborative filtering, KNN, NLP) trained on user data using Scikit-learn and Python libraries.
+- Integration: Backend APIs for serving recommendations, integrated with user-facing platforms.
+- Testing: Evaluating model performance using Python tools like Jupyter and pandas.
+
+Key Visualized Metrics Include:
+- Subscription Plan Insights: A breakdown of users by subscription type (Premium, Standard, Basic) to identify customer segments and optimize ad placements accordingly.
+- Geographic Distribution: A map highlights user locations across the U.S., facilitating location-based ad targeting to improve relevance and ad campaign effectiveness.
+- Payment Method Analysis: Insights into total payments by method (American Express, Discover, MasterCard, Visa), offering valuable data for aligning payment preferences with targeted promotions and partnerships.
+- Genre-based User Engagement: Analysis of preferred genres (e.g., Documentary, Drama, Comedy) to tailor ads based on content consumption patterns, increasing the likelihood of ad engagement.
+
+Analysis
+This data-driven approach allows for an optimized ad recommendation strategy, ensuring Netflix delivers high-impact, relevant advertisements that align with both user preferences and advertiser goals.
+</pre>
+
+<hr>
+
+
