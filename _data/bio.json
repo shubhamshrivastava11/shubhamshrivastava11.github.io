@@ -6,11 +6,25 @@
     "email": "shrivastava@oakland.edu",
     "phone": "224-578-8986",
     "website": "https://shubhamshrivastava11.github.io/",
-    "summary": "I did my Masters in Information Technology Management from the School of Business Admnistration at the Oakland University, Michigan, USA.",
-    "location": { "address": "", "postalCode": "78704", "city": "Austin", "countryCode": "USA", "region": "Texas" },
+    "summary": "I completed my Masters in Information Technology Management from the School of Business Administration at Oakland University, Michigan, USA.",
+    "location": {
+      "address": "",
+      "postalCode": "78704",
+      "city": "Austin",
+      "countryCode": "USA",
+      "region": "Texas"
+    },
     "profiles": [
-      { "network": "github", "username": "shubhamshrivastava11", "url": "https://github.com/shubhamshrivastava11" },
-      { "network": "linkedin", "username": "Shubham Shrivastava", "url": "http://linkedin.com/in/changeme" }
+      {
+        "network": "github",
+        "username": "shubhamshrivastava11",
+        "url": "https://github.com/shubhamshrivastava11"
+      },
+      {
+        "network": "linkedin",
+        "username": "Shubham Shrivastava",
+        "url": "http://linkedin.com/in/changeme"
+      }
     ]
   },
   "interests": [
@@ -23,75 +37,104 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "Figma", "Jira", "Lucid Charts", "Google Analytics" , "Power BI", "Microsoft Suite",  "SQL" ]
+      "keywords": [
+        "Python",
+        "Java",
+        "Figma",
+        "Jira",
+        "Lucid Charts",
+        "Google Analytics",
+        "Power BI",
+        "Microsoft Suite",
+        "SQL"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub"]
+      "keywords": ["MacOS", "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
     {
-      "institution": "Oakland University, MI, USA ",
-      "area": "Information Technology Management ",
+      "institution": "Oakland University, MI, USA",
+      "area": "Information Technology Management",
       "studyType": "M.S.",
       "startDate": "2022-01-05",
       "endDate": "2023-12-16",
-      "courses": [ "Intro Database/Data Warehouse", "System Analysis and Design" , "Project Management" , "Business IT Collaboration" , "Business Application Technology", "Digital Innovation" , "IS Risk Analysis" , "Project Seminar"]
-    }
-  ], 
-  [
+      "courses": [
+        "Intro Database/Data Warehouse",
+        "System Analysis and Design",
+        "Project Management",
+        "Business IT Collaboration",
+        "Business Application Technology",
+        "Digital Innovation",
+        "IS Risk Analysis",
+        "Project Seminar"
+      ]
+    },
     {
       "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya, M.P., India",
       "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2013-08-08",
       "endDate": "2017-05-26",
-      "courses": [ "Data structures and Algorithm" , "Computer Networking" , "Operating System" , "Object Oriented Programming" , "Web Development"]
-    
+      "courses": [
+        "Data Structures and Algorithms",
+        "Computer Networking",
+        "Operating System",
+        "Object Oriented Programming",
+        "Web Development"
+      ]
+    }
   ],
-"work": [
+  "work": [
     {
       "company": "UH Manoa Board of Publications",
       "position": "Web Developer",
-      "website": "",
+      "website": "http://example.com",
       "startDate": "2015-08-01",
       "endDate": "Present",
       "summary": "Head of online presence for Ka Leo",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Maintain, update, and oversee the official college newspaper website.",
+        "Drive, design, and build student-community projects for UH Manoa."
       ]
     }
-],
-"volunteer": [
+  ],
+  "volunteer": [
     {
       "organization": "DIT US",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "Product Manager Intern",
       "startDate": "2024-03-04",
       "endDate": "Present",
-      "summary": "Performed Product management tasks in IT service company",
+      "summary": "Performed product management tasks in an IT service company.",
       "highlights": [
-        "Worked on Netflix Ad recommendation to improve ad personalization.",
-        "Built end-to-end data pipleline using MySQL and Power BI for data processing and visualization"
+        "Worked on Netflix Ad recommendations to improve ad personalization.",
+        "Built an end-to-end data pipeline using MySQL and Power BI for data processing and visualization."
       ]
     }
   ],
   "certifications": [
     {
-      "Advanced Google Analytics" ,    
-      "Apple Search Ads"
-      "Product Discovery Micro-Certification (PDC)™️ ",
-      "Artificial Intelligence Micro-Certification (AIC)™️ ",
-      "Salesforce Certified Mulesoft Integration Associate"
+      "title": "Advanced Google Analytics"
+    },
+    {
+      "title": "Apple Search Ads"
+    },
+    {
+      "title": "Product Discovery Micro-Certification (PDC)™️"
+    },
+    {
+      "title": "Artificial Intelligence Micro-Certification (AIC)™️"
+    },
+    {
+      "title": "Salesforce Certified Mulesoft Integration Associate"
     }
-],
- 
+  ],
   "references": [
     {
       "name": "Available upon request"
     }
   ]
 }
-
