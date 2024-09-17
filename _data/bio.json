@@ -47,6 +47,11 @@
         "Power BI",
         "Microsoft Suite",
         "SQL"
+        "Advanced Google Analytics Certified", 
+        "Apple Search Ads Certified" , 
+        "Product Discovery Micro-Certification (PDC)™️" , 
+        "Artificial Intelligence Micro-Certification (AIC)™️", 
+        "Salesforce Certified Mulesoft Integration Associate"
       ]
     },
     {
@@ -141,23 +146,6 @@
         "Developed scalable J2EE applications and implemented REST APIs with Spring Boot.",
         "Improved code quality using test-driven development and tools like JUnit and Mockito."
       ]
-    }
-  ],
-  "certifications": [
-    {
-      "title": "Advanced Google Analytics"
-    },
-    {
-      "title": "Apple Search Ads"
-    },
-    {
-      "title": "Product Discovery Micro-Certification (PDC)™️"
-    },
-    {
-      "title": "Artificial Intelligence Micro-Certification (AIC)™️"
-    },
-    {
-      "title": "Salesforce Certified Mulesoft Integration Associate"
     }
   ],
   "references": [
