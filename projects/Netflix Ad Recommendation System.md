@@ -16,6 +16,7 @@ labels:
 summary: "A machine learning-based ad recommendation system designed to enhance personalization and user engagement for Netflix."
 ---
 <img class="img-fluid" src="img/n2.png">
+<img class="img-fluid" src="img/vs01.png">
 
 Netflix Ad Recommendation System is a machine learning project aimed at enhancing ad personalization for Netflix users. By analyzing user behavior, preferences, and watch history, this system delivers targeted ads that balance user satisfaction and advertiser goals.
 
