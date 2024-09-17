@@ -51,7 +51,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": ["MacOS", "Ubuntu", "Git/GitHub"]
+      "keywords": ["MacOS", "Windows" , "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
@@ -109,7 +109,9 @@
       "highlights": [
         "Architected Product Roadmap and used Figma for prototyping."
       ]
-    },
+    }
+  ],
+  "volunteer": [
     {
       "organization": "Dept. of Financial Services, Oakland University",
       "website": "https://oakland.edu/",
@@ -120,6 +122,7 @@
       "highlights": [
         "Directed strategic product planning.",
         "Managed a $200,000 budget and mentored 5+ junior team members."
+      ]
     },
     {
       "organization": "Streetingo Inc.",
