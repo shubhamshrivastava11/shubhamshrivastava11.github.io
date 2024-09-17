@@ -48,7 +48,7 @@
       "startDate": "2013-08-08",
       "endDate": "2017-05-26",
       "courses": [ "Data structures and Algorithm" , "Computer Networking" , "Operating System" , "Object Oriented Programming" , "Web Development"]
-    }
+    
   ],
 "work": [
     {
@@ -93,4 +93,5 @@
       "name": "Available upon request"
     }
   ]
+}
 
