@@ -51,7 +51,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": ["MacOS", "Windows" , "Ubuntu", "Git/GitHub"]
+      "keywords": ["MacOS", "Windows", "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
@@ -67,7 +67,7 @@
         "Project Management",
         "Business IT Collaboration",
         "Business Application Technology",
-        "Digital Innovation",
+        "Digital Product Innovation",
         "IS Risk Analysis",
         "Project Seminar"
       ]
@@ -95,8 +95,8 @@
       "startDate": "2024-03-04",
       "endDate": "Present",
       "highlights": [
-        "Worked on Netflix Ad recommendation to improve ad personalization.",
-        "Built end-to-end data pipeline using MySQL and Power BI for data processing and visualization."
+        "Developed a machine learning recommendation engine for Netflix, optimizing ad targeting.",
+        "Led Agile sprints, managed Power BI dashboards, and shaped the go-to-market strategy by integrating user feedback."
       ]
     },
     {
@@ -107,21 +107,19 @@
       "startDate": "2023-06-01",
       "endDate": "2023-12-15",
       "highlights": [
-        "Architected Product Roadmap and used Figma for prototyping."
+        "Architected a product roadmap ensuring 99.9% data synchronization uptime.",
+        "Led market research, launched key features, and leveraged Google Cloud for optimized data processing."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
       "organization": "Dept. of Financial Services, Oakland University",
       "website": "https://oakland.edu/",
       "position": "Project Coordinator",
       "startDate": "2022-05-26",
       "endDate": "2023-04-15",
-      "summary": "Lead developer for weather sensing project.",
       "highlights": [
-        "Directed strategic product planning.",
-        "Managed a $200,000 budget and mentored 5+ junior team members."
+        "Drove a 20% user engagement increase by delivering an optimized MVP.",
+        "Managed a $200,000 budget and mentored junior team members while aligning product improvements with user feedback."
       ]
     },
     {
@@ -131,8 +129,19 @@
       "startDate": "2020-12-01",
       "endDate": "2021-11-25",
       "highlights": [
-        "Led the development of the Streetingo application MVP.",
-        "Developed real-time vendor tracking features."
+        "Led MVP development, increasing daily users by 15%.",
+        "Enhanced customer experience through real-time vendor tracking and used Figma for prototyping to streamline design processes."
+      ]
+    },
+    {
+      "company": "Worldsoft Technologies Pvt Ltd",
+      "position": "Software Development Engineer",
+      "location": "Bhopal, MP, India",
+      "startDate": "2018-01-01",
+      "endDate": "2020-11-01",
+      "highlights": [
+        "Developed scalable J2EE applications and implemented REST APIs with Spring Boot.",
+        "Improved code quality using test-driven development and tools like JUnit and Mockito."
       ]
     }
   ],
