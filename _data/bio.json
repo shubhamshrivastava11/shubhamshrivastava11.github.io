@@ -89,29 +89,50 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "http://example.com",
-      "startDate": "2015-08-01",
+      "company": "DIT US",
+      "position": "Product Manager Intern",
+      "location": "Austin, TX (Remote)",
+      "startDate": "2024-03-04",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
       "highlights": [
-        "Maintain, update, and oversee the official college newspaper website.",
-        "Drive, design, and build student-community projects for UH Manoa."
+        "Worked on Netflix Ad recommendation to improve ad personalization.",
+        "Built end-to-end data pipeline using MySQL and Power BI for data processing and visualization."
+      ]
+    },
+    {
+      "company": "Openlogix (K2 Company)",
+      "position": "Product Manager",
+      "location": "Bloomfield Hills, MI",
+      "website": "https://open-logix.com/",
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-15",
+      "highlights": [
+        "Architected Product Roadmap and used Figma for prototyping."
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "DIT US",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Product Manager Intern",
-      "startDate": "2024-03-04",
-      "endDate": "Present",
-      "summary": "Performed product management tasks in an IT service company.",
+      "organization": "Dept. of Financial Services, Oakland University",
+      "website": "https://oakland.edu/",
+      "position": "Project Coordinator",
+      "startDate": "2022-05-26",
+      "endDate": "2023-04-15",
+      "summary": "Lead developer for weather sensing project.",
       "highlights": [
-        "Worked on Netflix Ad recommendations to improve ad personalization.",
-        "Built an end-to-end data pipeline using MySQL and Power BI for data processing and visualization."
+        "Directed strategic product planning.",
+        "Managed a $200,000 budget and mentored 5+ junior team members."
+      ]
+    },
+    {
+      "organization": "Streetingo Inc.",
+      "location": "New Delhi, India",
+      "position": "Product Manager",
+      "startDate": "2020-12-01",
+      "endDate": "2021-11-25",
+      "highlights": [
+        "Led the development of the Streetingo application MVP.",
+        "Developed real-time vendor tracking features."
       ]
     }
   ],
