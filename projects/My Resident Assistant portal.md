@@ -2,9 +2,8 @@
 layout: project
 type: project
 image: img/mra.png
-title: "MyResidentAssistant.com"
+title: "My Resident Assistant Portal"
 # All dates must be YYYY-MM-DD format!
-date: 2022-12-05
 published: true
 labels:
   - Web Application
