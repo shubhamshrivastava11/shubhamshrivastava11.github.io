@@ -1,19 +1,19 @@
 /* Import Poppins and Source Code Pro fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Root variables for vibrant theme customization */
+/* Root variables for a darker, attractive theme */
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
-  --bs-link-color: #ff5c5c; /* Vibrant red for links */
-  --tf-pill-bg: #e0f7fa; /* Light cyan for pill backgrounds */
-  --tf-icon-fill: #343a40; /* Dark gray for icons */
-  --tf-icon-hover: #ff5c5c; /* Vibrant hover for icons */
-  --tf-page-bg-color: #f8f9fa; /* Light background */
-  --tf-footer-bg-color: #20232a; /* Dark footer for contrast */
-  --tf-footer-text-color: #ffffff; /* White footer text */
-  --tf-projects-bg-color: #f5f5f5; /* Light gray for projects section */
-  --tf-btn-primary-bg: #4CAF50; /* Bright green for buttons */
-  --tf-btn-hover-bg: #43a047; /* Darker green for hover */
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for modern look */
+  --bs-link-color: #d32f2f; /* Dark red for links */
+  --tf-pill-bg: #263238; /* Dark cyan-gray for pill backgrounds */
+  --tf-icon-fill: #1c1c1c; /* Dark black for icons */
+  --tf-icon-hover: #d32f2f; /* Dark red for icon hover */
+  --tf-page-bg-color: #1f1f1f; /* Dark gray for background */
+  --tf-footer-bg-color: #121212; /* Darker background for footer */
+  --tf-footer-text-color: #e0e0e0; /* Light gray footer text */
+  --tf-projects-bg-color: #2e2e2e; /* Medium dark gray for projects section */
+  --tf-btn-primary-bg: #388e3c; /* Dark green for buttons */
+  --tf-btn-hover-bg: #2e7d32; /* Darker green for hover */
 }
 
 /* Style for social media icons */
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #ff3333; /* Slightly darker red on hover */
+  color: #b71c1c; /* Darker red on hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -55,11 +55,12 @@ a:hover {
 
 /* Simplified card footer with a cleaner look */
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: var(--tf-page-bg-color);
   border-top: none;
   padding: 1em 1.5em;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.4);
   font-family: var(--bs-font-sans-serif);
+  color: #e0e0e0; /* Light text */
 }
 
 /* Styling for footer */
@@ -77,19 +78,19 @@ a:hover {
 }
 
 .footer a:hover {
-  color: #ff5c5c; /* Bright red for links on hover */
+  color: #d32f2f; /* Dark red for links on hover */
 }
 
 /* Cards in the project section */
 .tf-project-card {
   background-color: var(--tf-projects-bg-color);
-  border: 1px solid #dee2e6;
+  border: 1px solid #4e4e4e;
   border-radius: 0.5em;
   transition: box-shadow 0.3s ease;
 }
 
 .tf-project-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
 }
 
 /* General button styling */
@@ -107,16 +108,18 @@ a:hover {
 
 .btn-primary:hover {
   background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3); /* Stronger shadow on hover */
+  box-shadow: 0 4px 10px rgba(56, 142, 60, 0.4); /* Stronger shadow on hover */
 }
 
 /* Responsive typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--bs-font-sans-serif);
   margin-bottom: 0.75em;
+  color: #e0e0e0; /* Light gray for headers */
 }
 
 p {
   line-height: 1.7;
   margin-bottom: 1.5em;
+  color: #bdbdbd; /* Gray for paragraph text */
 }
