@@ -1,22 +1,23 @@
-/* Import Poppins and Source Code Pro fonts */
+/* Import Poppins and Source Code Pro fonts for a clean and modern look */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Root variables for a darker, attractive theme */
+/* Root variables for subtle theme customization with white base */
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for modern look */
-  --bs-link-color: #d32f2f; /* Dark red for links */
-  --tf-pill-bg: #263238; /* Dark cyan-gray for pill backgrounds */
-  --tf-icon-fill: #1c1c1c; /* Dark black for icons */
-  --tf-icon-hover: #d32f2f; /* Dark red for icon hover */
-  --tf-page-bg-color: #1f1f1f; /* Dark gray for background */
-  --tf-footer-bg-color: #121212; /* Darker background for footer */
-  --tf-footer-text-color: #e0e0e0; /* Light gray footer text */
-  --tf-projects-bg-color: #2e2e2e; /* Medium dark gray for projects section */
-  --tf-btn-primary-bg: #388e3c; /* Dark green for buttons */
-  --tf-btn-hover-bg: #2e7d32; /* Darker green for hover */
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
+  --bs-link-color: #007bff; /* Bright blue for links */
+  --bs-link-hover-color: #0056b3; /* Darker blue for link hover */
+  --tf-pill-bg: #f1f3f5; /* Light gray for pill backgrounds */
+  --tf-icon-fill: #6c757d; /* Gray for icons */
+  --tf-icon-hover: #007bff; /* Blue hover effect for icons */
+  --tf-page-bg-color: #ffffff; /* Clean white background */
+  --tf-footer-bg-color: #f8f9fa; /* Light gray footer */
+  --tf-footer-text-color: #343a40; /* Dark gray for footer text */
+  --tf-projects-bg-color: #f7f7f7; /* Light background for projects */
+  --tf-btn-primary-bg: #007bff; /* Bright blue for buttons */
+  --tf-btn-hover-bg: #0056b3; /* Darker blue for button hover */
 }
 
-/* Style for social media icons */
+/* Style for social media icons with subtle interaction */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
@@ -28,7 +29,7 @@
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
-  transform: scale(1.15); /* Zoom effect on hover */
+  transform: scale(1.1); /* Subtle zoom on hover */
 }
 
 /* Link styling with smooth color transitions */
@@ -39,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: #b71c1c; /* Darker red on hover */
+  color: var(--bs-link-hover-color); /* Darker blue on hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -58,12 +59,11 @@ a:hover {
   background-color: var(--tf-page-bg-color);
   border-top: none;
   padding: 1em 1.5em;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05); /* Soft shadow for elevation */
   font-family: var(--bs-font-sans-serif);
-  color: #e0e0e0; /* Light text */
 }
 
-/* Styling for footer */
+/* Styling for footer with clean and readable typography */
 .footer {
   background-color: var(--tf-footer-bg-color);
   color: var(--tf-footer-text-color);
@@ -78,19 +78,19 @@ a:hover {
 }
 
 .footer a:hover {
-  color: #d32f2f; /* Dark red for links on hover */
+  color: var(--bs-link-color); /* Blue for footer links on hover */
 }
 
 /* Cards in the project section */
 .tf-project-card {
   background-color: var(--tf-projects-bg-color);
-  border: 1px solid #4e4e4e;
+  border: 1px solid #dee2e6;
   border-radius: 0.5em;
   transition: box-shadow 0.3s ease;
 }
 
 .tf-project-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow on hover for subtle depth */
 }
 
 /* General button styling */
@@ -108,18 +108,27 @@ a:hover {
 
 .btn-primary:hover {
   background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(56, 142, 60, 0.4); /* Stronger shadow on hover */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Soft shadow on button hover */
 }
 
-/* Responsive typography */
+/* Responsive typography for headers and text */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--bs-font-sans-serif);
+  color: #343a40; /* Dark gray for headers */
   margin-bottom: 0.75em;
-  color: #e0e0e0; /* Light gray for headers */
 }
 
 p {
   line-height: 1.7;
+  color: #495057; /* Slightly lighter gray for text */
   margin-bottom: 1.5em;
-  color: #bdbdbd; /* Gray for paragraph text */
+}
+
+/* Add subtle border for rounded elements */
+.rounded-circle {
+  border: 1px solid #dee2e6;
+}
+
+.rounded-circle:hover {
+  border-color: var(--bs-link-color); /* Blue border on hover */
 }
