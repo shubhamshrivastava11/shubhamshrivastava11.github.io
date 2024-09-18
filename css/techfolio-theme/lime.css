@@ -1,15 +1,15 @@
-/* Lime Theme: modifies the default theme to inject a wee bit o' green in various places. */
+/* Lime Theme: modifies the default theme with vibrant greens and modern typography */
 
-/* Use Open Sans as the default font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+/* Import Poppins and Source Code Pro fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for vibrant theme customization */
 :root {
-  --tf-green1: #136c14;
-  --tf-green2: #4FA64F;
-  --tf-green3: #85C285;
-  --tf-green4: #e0f2df;
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --tf-green1: #136c14; /* Dark green */
+  --tf-green2: #4FA64F; /* Vibrant green */
+  --tf-green3: #85C285; /* Light green */
+  --tf-green4: #e0f2df; /* Very light green */
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern look */
   --bs-link-color: var(--tf-green1);
   --tf-pill-bg: var(--tf-green3);
   --tf-icon-fill: var(--tf-green1);
@@ -17,30 +17,43 @@
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-green4);
   --tf-projects-bg-color: var(--tf-green4);
+  --tf-btn-primary-bg: var(--tf-green2); /* Bright green buttons */
+  --tf-btn-hover-bg: #43a047; /* Darker green on hover */
 }
 
-h1,h2,h3,h4,h5 {
+/* Typography colors */
+h1, h2, h3, h4, h5 {
   color: var(--tf-green1);
+  font-family: var(--bs-font-sans-serif);
 }
 
-/* Format social media icons */
+/* Style for social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-green1);
-  height: 1.5em;
+  fill: var(--tf-icon-fill);
+  height: 1.75em;
+  width: 1.75em;
   vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.3s ease, transform 0.3s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.15); /* Zoom effect on hover */
 }
 
+/* Link styling with smooth color transitions */
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #1a731a; /* Slightly darker green on hover */
+}
+
+/* Navbar branding adjustments for small screens */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -51,8 +64,70 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplified card footer with a cleaner look */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+  padding: 1em 1.5em;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* Styling for footer */
+.footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--tf-green1);
+  padding: 2em 0;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.footer a {
+  color: var(--tf-green1);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--tf-green2); /* Bright green for links on hover */
+}
+
+/* Cards in the project section */
+.tf-project-card {
+  background-color: var(--tf-projects-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.tf-project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* General button styling */
+.btn {
+  font-weight: 500;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.btn-primary {
+  background-color: var(--tf-btn-primary-bg);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--tf-btn-hover-bg);
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3); /* Stronger shadow on hover */
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-sans-serif);
+  margin-bottom: 0.75em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
 }
