@@ -1,38 +1,48 @@
-/* Default theme. Simple, yet elegant. */
+/* Import Poppins and Source Code Pro fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for vibrant theme customization */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
+  --bs-link-color: #ff5c5c; /* Vibrant red for links */
+  --tf-pill-bg: #e0f7fa; /* Light cyan for pill backgrounds */
+  --tf-icon-fill: #343a40; /* Dark gray for icons */
+  --tf-icon-hover: #ff5c5c; /* Vibrant hover for icons */
+  --tf-page-bg-color: #f8f9fa; /* Light background */
+  --tf-footer-bg-color: #20232a; /* Dark footer for contrast */
+  --tf-footer-text-color: #ffffff; /* White footer text */
+  --tf-projects-bg-color: #f5f5f5; /* Light gray for projects section */
+  --tf-btn-primary-bg: #4CAF50; /* Bright green for buttons */
+  --tf-btn-hover-bg: #43a047; /* Darker green for hover */
 }
 
-/* Format social media icons */
+/* Style for social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
-  height: 1.5em;
+  height: 1.75em;
+  width: 1.75em;
   vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.3s ease, transform 0.3s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.15); /* Zoom effect on hover */
 }
 
+/* Link styling with smooth color transitions */
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #ff3333; /* Slightly darker red on hover */
+}
+
+/* Navbar branding adjustments for small screens */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -43,8 +53,70 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplified card footer with a cleaner look */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+  padding: 1em 1.5em;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* Styling for footer */
+.footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--tf-footer-text-color);
+  padding: 2em 0;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.footer a {
+  color: var(--tf-footer-text-color);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ff5c5c; /* Bright red for links on hover */
+}
+
+/* Cards in the project section */
+.tf-project-card {
+  background-color: var(--tf-projects-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.tf-project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* General button styling */
+.btn {
+  font-weight: 500;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.btn-primary {
+  background-color: var(--tf-btn-primary-bg);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--tf-btn-hover-bg);
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3); /* Stronger shadow on hover */
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-sans-serif);
+  margin-bottom: 0.75em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
 }
