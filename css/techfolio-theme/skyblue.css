@@ -1,16 +1,16 @@
-/* Skyblue Theme: modifies the default theme to use blue in various places. */
+/* Skyblue Theme: modifies the default theme with vibrant blues and modern fonts */
 
-/* Use Open Sans as the default font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+/* Use Poppins for body text and Rubik for headers */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;700&display=swap");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-blue1: #076db3;
-  --tf-blue2: #1b6fa9;
-  --tf-blue3: #2f8ed0;
-  --tf-blue4: #bde3f0;
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --tf-blue1: #076db3; /* Dark blue */
+  --tf-blue2: #1b6fa9; /* Medium blue */
+  --tf-blue3: #2f8ed0; /* Light blue */
+  --tf-blue4: #bde3f0; /* Pale blue */
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for body text */
+  --bs-font-headings: "Rubik", sans-serif; /* Rubik for headers */
   --bs-link-color: var(--tf-blue1);
   --tf-pill-bg: var(--tf-blue3);
   --tf-icon-fill: var(--tf-blue1);
@@ -18,31 +18,43 @@
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-blue4);
   --tf-projects-bg-color: var(--tf-blue4);
+  --tf-btn-primary-bg: var(--tf-blue1); /* Dark blue for primary buttons */
+  --tf-btn-hover-bg: var(--tf-blue2); /* Medium blue on hover */
 }
 
-h1,h2,h3,h4,h5 {
-  color: var(--tf-blue1);
-  font-family: Rubik;
+/* Use Rubik for headings */
+h1, h2, h3, h4, h5 {
+  font-family: var(--bs-font-headings);
+  color: var(--tf-blue1); /* Default dark blue for headings */
 }
 
-/* Format social media icons */
+/* Social media icon styling */
 .tf-social {
   display: inline-block;
   fill: var(--tf-blue1);
-  height: 1.5em;
+  height: 1.75em;
+  width: 1.75em;
   vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.3s ease, transform 0.3s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.15); /* Slight zoom on hover */
 }
 
+/* Link styling with smooth transitions */
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #034a7f; /* Darker blue for link hover */
+}
+
+/* Navbar branding adjustments for small screens */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -53,8 +65,73 @@ a {
   }
 }
 
+/* Round borders for images */
 .rounded-circle {
   border-color: var(--tf-blue1);
   border-style: solid;
   border-width: 1px;
+  transition: border-color 0.3s ease;
+}
+
+.rounded-circle:hover {
+  border-color: var(--tf-blue3); /* Light blue border on hover */
+}
+
+/* Footer design */
+.footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--tf-blue1);
+  padding: 2em 0;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.footer a {
+  color: var(--tf-blue1);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #034a7f; /* Darker blue hover for footer links */
+}
+
+/* Project card design */
+.tf-project-card {
+  background-color: var(--tf-projects-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.tf-project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Button styling */
+.btn {
+  font-weight: 500;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.btn-primary {
+  background-color: var(--tf-btn-primary-bg);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--tf-btn-hover-bg);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Stronger shadow on hover */
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-headings);
+  margin-bottom: 0.75em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
 }
