@@ -1,37 +1,46 @@
-/* Bitter Theme: modifies the default theme to use Bitter as the default font. */
-
+/* Import Bitter and Source Code Pro fonts */
 @import url("https://fonts.googleapis.com/css?family=Bitter:300,400,500,700|Source+Code+Pro:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for easier customization */
 :root {
   --bs-font-sans-serif: "Bitter", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-link-color: #007bff; /* Change to a more visually appealing blue */
+  --tf-pill-bg: #f8f9fa; /* Light gray background for better contrast */
+  --tf-icon-fill: #6c757d; /* Use a darker gray for icons */
+  --tf-icon-hover: #495057; /* Darker gray on hover */
+  --tf-page-bg-color: #f5f5f5; /* Softer background color for the page */
+  --tf-footer-bg-color: #343a40; /* Dark footer for better contrast */
+  --tf-footer-text-color: #ffffff; /* White text on footer */
+  --tf-projects-bg-color: #e9ecef; /* Subtle gray for project section */
 }
 
-/* Format social media icons */
+/* Style for social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
   height: 1.5em;
-  vertical-align: -.1em;
   width: 1.5em;
-  transition: 0.2s;
+  vertical-align: -.1em;
+  transition: fill 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effect */
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.1); /* Slight zoom on hover */
 }
 
+/* Link styling with smooth color transitions */
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navbar branding adjustments for small screens */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -42,8 +51,68 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplified card footer with a cleaner look */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+  padding: 1em 1.5em; /* Add padding for better spacing */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
+/* Styling for footer */
+.footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--tf-footer-text-color);
+  padding: 2em 0;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--tf-footer-text-color);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ced4da; /* Light gray for links on hover */
+}
+
+/* Cards in the project section */
+.tf-project-card {
+  background-color: var(--tf-projects-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.tf-project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Shadow effect on hover */
+}
+
+/* General button styling */
+.btn {
+  font-weight: 500;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Shadow on hover */
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-sans-serif);
+  margin-bottom: 0.75em;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+}
+
