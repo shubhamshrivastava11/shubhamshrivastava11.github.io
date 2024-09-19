@@ -1,74 +1,74 @@
-/* Import Poppins for general text and Source Code Pro for code elements */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
+/* Import Montserrat for headings and Roboto for body text */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap");
 
-/* Root variables for professional color scheme */
+/* Root variables for vibrant color scheme */
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif; /* Clean and modern font */
-  --bs-font-mono: "Source Code Pro", monospace; /* Monospace for code elements */
-  --bs-primary-color: #0d47a1; /* Deep navy blue */
-  --bs-secondary-color: #ffc107; /* Golden accents for buttons and highlights */
-  --bs-bg-color: #f4f6f8; /* Light gray background */
-  --bs-link-color: #0d47a1; /* Navy blue for links */
-  --bs-link-hover-color: #ffab00; /* Gold hover effect for links */
-  --bs-card-bg-color: #ffffff; /* Clean white card background */
-  --bs-footer-bg-color: #0a192f; /* Dark navy footer for strong contrast */
-  --bs-footer-text-color: #e0e0e0; /* Light gray for footer text */
-  --bs-text-color: #333333; /* Darker gray for readable text */
-  --bs-heading-color: #0d47a1; /* Navy blue for headings */
-  --bs-hover-box-shadow: rgba(0, 0, 0, 0.15); /* Soft shadow for hover */
+  --primary-color: #00a8ff; /* Vibrant blue */
+  --secondary-color: #ff7979; /* Punchy coral red */
+  --background-gradient: linear-gradient(135deg, #e1eec3, #f05053); /* Soft gradient background */
+  --link-color: #ff7979; /* Coral red for links */
+  --link-hover-color: #d63031; /* Darker coral on hover */
+  --text-color: #2c3e50; /* Dark slate for text */
+  --heading-color: #273c75; /* Strong dark blue for headings */
+  --btn-gradient: linear-gradient(135deg, #00a8ff, #9c88ff); /* Gradient for buttons */
+  --btn-hover-gradient: linear-gradient(135deg, #4cd137, #00a8ff); /* Hover gradient for buttons */
+  --card-bg-color: #ffffff; /* Clean white for cards */
+  --footer-bg-color: #353b48; /* Dark gray for footer */
+  --footer-text-color: #ffffff; /* White text for footer */
 }
 
 /* Font settings */
 body {
-  font-family: var(--bs-font-sans-serif);
-  color: var(--bs-text-color);
-  background-color: var(--bs-bg-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background: var(--background-gradient); /* Gradient background for modern feel */
   line-height: 1.8;
+  margin: 0;
+  padding: 0;
 }
 
-/* Link styling */
+/* Universal link styling */
 a {
   text-decoration: none;
-  color: var(--bs-link-color);
+  color: var(--link-color);
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: var(--link-hover-color); /* Coral hover effect */
 }
 
 /* Buttons */
 .btn {
-  font-weight: 500;
-  padding: 0.8em 1.5em;
-  border-radius: 0.3em;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  font-family: var(--bs-font-sans-serif);
-}
-
-.btn-primary {
-  background-color: var(--bs-primary-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 1em 2em;
+  border-radius: 50px; /* Round buttons */
+  background: var(--btn-gradient);
   color: #fff;
   border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: var(--bs-secondary-color);
-  box-shadow: 0 4px 12px var(--bs-hover-box-shadow); /* Subtle shadow for hover */
+.btn:hover {
+  background: var(--btn-hover-gradient);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Elevation on hover */
 }
 
 /* Hero section */
 .hero-banner {
-  background-color: var(--bs-primary-color);
-  color: #fff;
-  padding: 4em 0;
+  padding: 5em 0;
   text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #273c75, #192a56); /* Deep blue gradient */
 }
 
 .hero-banner h1 {
-  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
   margin-bottom: 0.5em;
-  color: #fff;
+  text-transform: uppercase;
 }
 
 .hero-banner p {
@@ -76,57 +76,59 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.5;
+  color: #dcdde1;
 }
 
 /* Social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--bs-text-color);
-  height: 2em;
-  width: 2em;
-  vertical-align: -.1em;
-  transition: fill 0.3s ease, transform 0.3s ease;
+  fill: #fff;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0 0.5em;
+  transition: transform 0.3s ease;
 }
 
 .tf-social:hover {
-  fill: var(--bs-secondary-color);
-  transform: scale(1.15);
+  transform: scale(1.3); /* Dramatic zoom effect */
 }
 
 /* Card styling */
 .card {
-  background-color: var(--bs-card-bg-color);
-  border: 1px solid #dee2e6;
-  border-radius: 0.5em;
-  padding: 1.5em;
+  background-color: var(--card-bg-color);
+  border: 0;
+  border-radius: 1em;
+  padding: 2em;
   transition: box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
-  box-shadow: 0 6px 20px var(--bs-hover-box-shadow);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Stronger hover shadow */
 }
 
 /* Portfolio section */
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5em;
-  margin-top: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  padding: 4em 0;
 }
 
 .portfolio-item {
-  border-radius: 0.5em;
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  border-radius: 1em;
 }
 
 .portfolio-item img {
   width: 100%;
-  transition: transform 0.3s ease;
+  border-radius: 1em;
+  transition: transform 0.5s ease;
 }
 
 .portfolio-item:hover img {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.2); /* Zoom on hover */
 }
 
 .portfolio-item .overlay {
@@ -136,11 +138,11 @@ a:hover {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .portfolio-item:hover .overlay {
@@ -150,68 +152,69 @@ a:hover {
 .portfolio-item .overlay h3 {
   color: #fff;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 /* Testimonial section */
 .testimonials {
-  background-color: var(--bs-bg-color);
   padding: 4em 0;
+  background-color: #f5f6fa;
   text-align: center;
 }
 
 .testimonial-card {
-  background-color: var(--bs-card-bg-color);
+  background-color: #fff;
   padding: 2em;
-  border-radius: 0.5em;
-  box-shadow: 0 2px 10px var(--bs-hover-box-shadow);
+  border-radius: 1em;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-card h3 {
-  font-size: 1.25em;
-  color: var(--bs-primary-color);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
   margin-bottom: 0.5em;
 }
 
 .testimonial-card p {
   font-style: italic;
-  color: var(--bs-text-color);
+  color: #57606f;
 }
 
 /* Footer */
 .footer {
-  background-color: var(--bs-footer-bg-color);
-  color: var(--bs-footer-text-color);
-  padding: 2em 0;
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  padding: 3em 0;
   text-align: center;
-  font-family: var(--bs-font-sans-serif);
 }
 
 .footer a {
-  color: var(--bs-footer-text-color);
+  color: var(--footer-text-color);
 }
 
 .footer a:hover {
-  color: var(--bs-secondary-color);
+  color: var(--link-hover-color);
 }
 
 /* Typography for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--bs-font-sans-serif);
-  color: var(--bs-heading-color);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
   margin-bottom: 0.75em;
 }
 
 p {
-  font-family: var(--bs-font-sans-serif);
-  color: var(--bs-text-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
   margin-bottom: 1.5em;
+  line-height: 1.7;
 }
 
 /* Code block styling */
 pre, code {
-  font-family: var(--bs-font-mono);
-  background-color: #f5f5f5;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #f5f6fa;
   padding: 0.5em;
-  border-radius: 0.25em;
-  color: #333;
+  border-radius: 0.5em;
+  color: #2d3436;
 }
