@@ -13,7 +13,6 @@
   --btn-gradient: linear-gradient(135deg, #34495e, #2980b9);
   --btn-hover-gradient: linear-gradient(135deg, #2980b9, #34495e);
   --portfolio-bg-color: #e8edf3; /* Light blue-gray for a professional background */
-  --neon-color: #00ffcc; /* Neon cyan for glow */
   --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.08);
   --box-shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
@@ -29,31 +28,13 @@ body {
   perspective: 1500px;
 }
 
-/* Font settings for headers with neon effect */
+/* Font settings for headers */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: var(--heading-color);
   margin-bottom: 0.75em;
   font-weight: 700;
   letter-spacing: 1px;
-  position: relative;
-  text-shadow: 0 0 5px var(--neon-color), 0 0 10px var(--neon-color), 0 0 15px var(--neon-color);
-}
-
-h1::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--neon-color);
-  transform: scaleX(0);
-  transition: transform 0.5s ease;
-}
-
-h1:hover::before {
-  transform: scaleX(1);
 }
 
 /* Link styling */
@@ -68,7 +49,7 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* Buttons with neon glow effect */
+/* Buttons with a refined 3D effect */
 .btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -80,19 +61,18 @@ a:hover {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transform: translateY(0);
+  transform: translateY(0) rotateX(0); /* Subtle rotation */
 }
 
 .btn:hover {
   background: var(--btn-hover-gradient);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 10px var(--neon-color);
-  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px) rotateX(3deg);
 }
 
-/* Neon glow for buttons when active */
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 12px var(--neon-color);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Hero section for a clean, modern look */
@@ -131,7 +111,6 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  text-shadow: 0 0 10px var(--neon-color);
 }
 
 .hero-banner p {
@@ -141,7 +120,7 @@ a:hover {
   line-height: 1.6;
 }
 
-/* Social media icons with neon hover effect */
+/* Social media icons */
 .tf-social {
   display: inline-block;
   fill: var(--secondary-color);
@@ -153,7 +132,7 @@ a:hover {
 
 .tf-social:hover {
   transform: translateY(-3px);
-  filter: drop-shadow(0 5px 15px var(--neon-color));
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
 /* Card styling with a clean look */
@@ -167,7 +146,7 @@ a:hover {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: var(--box-shadow-heavy), 0 0 15px var(--neon-color); /* Enhanced shadow on hover with neon glow */
+  box-shadow: var(--box-shadow-heavy); /* Enhanced shadow on hover */
 }
 
 /* Portfolio section with light background */
@@ -179,24 +158,22 @@ a:hover {
   background-color: var(--portfolio-bg-color); /* Light and professional background */
 }
 
-/* Portfolio item hover effect with neon glow */
+/* Portfolio item hover effect */
 .portfolio-item {
   position: relative;
   overflow: hidden;
   border-radius: 1em;
   transition: all 0.5s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-item img {
   width: 100%;
   border-radius: 1em;
-  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .portfolio-item:hover img {
   transform: scale(1.1);
-  box-shadow: 0 0 20px var(--neon-color);
 }
 
 .portfolio-item .overlay {
@@ -222,7 +199,6 @@ a:hover {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 600;
-  text-shadow: 0 0 10px var(--neon-color);
 }
 
 /* Testimonials with a modern design */
@@ -237,7 +213,7 @@ a:hover {
   background-color: var(--card-bg-color);
   padding: 2em;
   border-radius: 1em;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 10px var(--neon-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   animation: float 6s ease-in-out infinite;
   transform: translateZ(0);
