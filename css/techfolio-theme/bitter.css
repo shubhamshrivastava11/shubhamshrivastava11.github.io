@@ -1,19 +1,19 @@
 /* Import Poppins and Source Code Pro fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Root variables for easier customization */
+/* Root variables for vibrant blue theme */
 :root {
   --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
-  --bs-link-color: #cc4949; /* Darker, vibrant red for links */
-  --tf-pill-bg: #b2dfdb; /* Darker cyan for pill backgrounds */
-  --tf-icon-fill: #212529; /* Darker gray for icons */
-  --tf-icon-hover: #cc4949; /* Darker red hover for icons */
-  --tf-page-bg-color: #eceff1; /* Soft, light background */
-  --tf-footer-bg-color: #1b1f26; /* Darker footer for strong contrast */
+  --bs-link-color: #2979ff; /* Vibrant blue for links */
+  --tf-pill-bg: #4fc3f7; /* Cyan for pill backgrounds */
+  --tf-icon-fill: #ffffff; /* White for icons */
+  --tf-icon-hover: #2979ff; /* Vibrant blue hover for icons */
+  --tf-page-bg-color: #e3f2fd; /* Light blue background */
+  --tf-footer-bg-color: #1a237e; /* Dark blue footer for strong contrast */
   --tf-footer-text-color: #e0e0e0; /* Softer white for footer text */
-  --tf-projects-bg-color: #d6d6d6; /* Darker light gray for projects section */
-  --tf-btn-primary-bg: #388e3c; /* Darker green for buttons */
-  --tf-btn-hover-bg: #2e7d32; /* Darker green for hover */
+  --tf-projects-bg-color: #90caf9; /* Light blue for project section */
+  --tf-btn-primary-bg: #1e88e5; /* Vibrant blue for buttons */
+  --tf-btn-hover-bg: #1565c0; /* Darker blue for hover */
 }
 
 /* Style for social media icons */
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-  color: #b23a3a; /* Slightly darker red on hover */
+  color: #2962ff; /* Slightly darker blue on hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -55,7 +55,7 @@ a:hover {
 
 /* Simplified card footer with a cleaner look */
 .card-footer {
-  background-color: var(--bs-white);
+  background-color: var(--tf-page-bg-color);
   border-top: none;
   padding: 1em 1.5em;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.15);
@@ -77,13 +77,13 @@ a:hover {
 }
 
 .footer a:hover {
-  color: #cc4949; /* Dark red for links on hover */
+  color: var(--bs-link-color); /* Vibrant blue for links on hover */
 }
 
 /* Cards in the project section */
 .tf-project-card {
   background-color: var(--tf-projects-bg-color);
-  border: 1px solid #cfd8dc;
+  border: 1px solid #64b5f6;
   border-radius: 0.5em;
   transition: box-shadow 0.3s ease;
 }
@@ -107,18 +107,27 @@ a:hover {
 
 .btn-primary:hover {
   background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(56, 142, 60, 0.35); /* Stronger shadow for emphasis */
+  box-shadow: 0 4px 10px rgba(21, 101, 192, 0.35); /* Stronger shadow for emphasis */
 }
 
 /* Responsive typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--bs-font-sans-serif);
   margin-bottom: 0.75em;
-  color: #2e2e2e; /* Darker heading text */
+  color: #1a237e; /* Dark blue for heading text */
 }
 
 p {
   line-height: 1.7;
   margin-bottom: 1.5em;
-  color: #4f4f4f; /* Darker paragraph text */
+  color: #37474f; /* Dark gray for paragraph text */
+}
+
+/* Add border for rounded elements */
+.rounded-circle {
+  border: 1px solid #64b5f6;
+}
+
+.rounded-circle:hover {
+  border-color: var(--bs-link-color); /* Vibrant blue border on hover */
 }
