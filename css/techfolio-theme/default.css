@@ -1,134 +1,220 @@
-/* Import Poppins and Source Code Pro fonts for a clean and modern look */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
+/* Import Montserrat for headings and Roboto for body text */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap");
 
-/* Root variables for a vibrant blue theme */
+/* Root variables for vibrant color scheme */
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
-  --bs-link-color: #ffffff; /* White for links */
-  --bs-link-hover-color: #dbeafe; /* Light blue for link hover */
-  --tf-pill-bg: #60a5fa; /* Vibrant blue for pill backgrounds */
-  --tf-icon-fill: #dbeafe; /* Light blue for icons */
-  --tf-icon-hover: #ffffff; /* White hover effect for icons */
-  --tf-page-bg-color: #1e3a8a; /* Vibrant blue background for page */
-  --tf-footer-bg-color: #1e40af; /* Darker blue for footer */
-  --tf-footer-text-color: #ffffff; /* White for footer text */
-  --tf-projects-bg-color: #3b82f6; /* Bright blue background for projects */
-  --tf-btn-primary-bg: #60a5fa; /* Light blue for buttons */
-  --tf-btn-hover-bg: #2563eb; /* Darker blue for button hover */
+  --primary-color: #00a8ff; /* Vibrant blue */
+  --secondary-color: #ff7979; /* Punchy coral red */
+  --background-gradient: linear-gradient(135deg, #e1eec3, #f05053); /* Soft gradient background */
+  --link-color: #ff7979; /* Coral red for links */
+  --link-hover-color: #d63031; /* Darker coral on hover */
+  --text-color: #2c3e50; /* Dark slate for text */
+  --heading-color: #273c75; /* Strong dark blue for headings */
+  --btn-gradient: linear-gradient(135deg, #00a8ff, #9c88ff); /* Gradient for buttons */
+  --btn-hover-gradient: linear-gradient(135deg, #4cd137, #00a8ff); /* Hover gradient for buttons */
+  --card-bg-color: #ffffff; /* Clean white for cards */
+  --footer-bg-color: #353b48; /* Dark gray for footer */
+  --footer-text-color: #ffffff; /* White text for footer */
 }
 
-/* Style for social media icons with subtle interaction */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.75em;
-  width: 1.75em;
-  vertical-align: -.1em;
-  transition: fill 0.3s ease, transform 0.3s ease;
+/* Font settings */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background: var(--background-gradient); /* Gradient background for modern feel */
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
 }
 
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
-  transform: scale(1.1); /* Subtle zoom on hover */
-}
-
-/* Link styling with smooth color transitions */
+/* Universal link styling */
 a {
   text-decoration: none;
-  color: var(--bs-link-color);
+  color: var(--link-color);
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: var(--bs-link-hover-color); /* Light blue on hover */
+  color: var(--link-hover-color); /* Coral hover effect */
 }
 
-/* Navbar branding adjustments for small screens */
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
+/* Buttons */
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 1em 2em;
+  border-radius: 50px; /* Round buttons */
+  background: var(--btn-gradient);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Simplified card footer with a cleaner look */
-.card-footer {
-  background-color: var(--tf-page-bg-color);
-  border-top: none;
-  padding: 1em 1.5em;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.05); /* Soft shadow for elevation */
-  font-family: var(--bs-font-sans-serif);
+.btn:hover {
+  background: var(--btn-hover-gradient);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Elevation on hover */
 }
 
-/* Styling for footer with clean and readable typography */
-.footer {
-  background-color: var(--tf-footer-bg-color);
-  color: var(--tf-footer-text-color);
-  padding: 2em 0;
+/* Hero section */
+.hero-banner {
+  padding: 5em 0;
   text-align: center;
-  font-family: var(--bs-font-sans-serif);
+  color: #fff;
+  background: linear-gradient(135deg, #273c75, #192a56); /* Deep blue gradient */
+}
+
+.hero-banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.hero-banner p {
+  font-size: 1.25em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: #dcdde1;
+}
+
+/* Social media icons */
+.tf-social {
+  display: inline-block;
+  fill: #fff;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.tf-social:hover {
+  transform: scale(1.3); /* Dramatic zoom effect */
+}
+
+/* Card styling */
+.card {
+  background-color: var(--card-bg-color);
+  border: 0;
+  border-radius: 1em;
+  padding: 2em;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Stronger hover shadow */
+}
+
+/* Portfolio section */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  padding: 4em 0;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 1em;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.2); /* Zoom on hover */
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio-item .overlay h3 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+/* Testimonial section */
+.testimonials {
+  padding: 4em 0;
+  background-color: #f5f6fa;
+  text-align: center;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
+  margin-bottom: 0.5em;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #57606f;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  padding: 3em 0;
+  text-align: center;
 }
 
 .footer a {
-  color: var(--tf-footer-text-color);
-  transition: color 0.3s ease;
+  color: var(--footer-text-color);
 }
 
 .footer a:hover {
-  color: var(--bs-link-hover-color); /* Light blue for footer links on hover */
+  color: var(--link-hover-color);
 }
 
-/* Cards in the project section */
-.tf-project-card {
-  background-color: var(--tf-projects-bg-color);
-  border: 1px solid #2563eb;
-  border-radius: 0.5em;
-  transition: box-shadow 0.3s ease;
-}
-
-.tf-project-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow on hover for subtle depth */
-}
-
-/* General button styling */
-.btn {
-  font-weight: 500;
-  border-radius: 0.3em;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  font-family: var(--bs-font-sans-serif);
-}
-
-.btn-primary {
-  background-color: var(--tf-btn-primary-bg);
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(38, 99, 235, 0.2); /* Soft shadow on button hover */
-}
-
-/* Responsive typography for headers and text */
+/* Typography for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--bs-font-sans-serif);
-  color: #ffffff; /* White for headers */
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
   margin-bottom: 0.75em;
 }
 
 p {
-  line-height: 1.7;
-  color: #dbeafe; /* Light blue for text */
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
   margin-bottom: 1.5em;
+  line-height: 1.7;
 }
 
-/* Add subtle border for rounded elements */
-.rounded-circle {
-  border: 1px solid #ffffff;
-}
-
-.rounded-circle:hover {
-  border-color: var(--bs-link-hover-color); /* Light blue border on hover */
+/* Code block styling */
+pre, code {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #f5f6fa;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: #2d3436;
 }
