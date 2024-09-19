@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/streetingo.png
+image: img/streetingo01.png
 title: "Streetingo Mobile Application"
 # All dates must be YYYY-MM-DD format!
 published: true
@@ -14,7 +14,7 @@ labels:
 summary: "Led the development and deployment of the Streetingo mobile application, focusing on enhancing user experience and real-time vendor tracking features."
 ---
 
-<img class="img/streetingo.png">
+<img class="img/streetingo01.png">
 
 Streetingo is a mobile application designed to improve the user journey by offering real-time vendor tracking and enhanced customer experience.
 
