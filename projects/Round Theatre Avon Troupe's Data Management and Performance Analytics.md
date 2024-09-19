@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/t1.png
+image: img/t2.png
 title: "Theater Production Management System"
 # All dates must be YYYY-MM-DD format!
 published: true
@@ -15,7 +15,7 @@ labels:
   - ERD Plus
 summary: "A comprehensive system designed to manage theater production details, ticket sales, and financial data, improving overall budgeting and financial planning."
 ---
-<img class="img-fluid" src="img/t1.png">
+<img class="img-fluid" src="img/t2.png">
 
 The Theater Production Management System is a database-driven solution developed to efficiently manage production details, member information, ticket sales, and financial data for a theater troupe. This system was designed with a strong focus on data accuracy, scalability, and ease of use to support the troupe’s ongoing productions and financial decision-making processes.
 
