@@ -3,7 +3,7 @@
 /* Use Poppins for body text and Rubik for headers */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;700&display=swap");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for skyblue theme */
 :root {
   --tf-blue1: #076db3; /* Dark blue */
   --tf-blue2: #1b6fa9; /* Medium blue */
@@ -11,13 +11,13 @@
   --tf-blue4: #bde3f0; /* Pale blue */
   --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for body text */
   --bs-font-headings: "Rubik", sans-serif; /* Rubik for headers */
-  --bs-link-color: var(--tf-blue1);
-  --tf-pill-bg: var(--tf-blue3);
-  --tf-icon-fill: var(--tf-blue1);
-  --tf-icon-hover: var(--tf-blue3);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--tf-blue4);
-  --tf-projects-bg-color: var(--tf-blue4);
+  --bs-link-color: var(--tf-blue1); /* Link color is dark blue */
+  --tf-pill-bg: var(--tf-blue3); /* Pill background is light blue */
+  --tf-icon-fill: var(--tf-blue1); /* Icon color is dark blue */
+  --tf-icon-hover: var(--tf-blue3); /* Light blue on hover */
+  --tf-page-bg-color: var(--bs-white); /* White page background */
+  --tf-footer-bg-color: var(--tf-blue4); /* Pale blue footer */
+  --tf-projects-bg-color: var(--tf-blue4); /* Pale blue for projects */
   --tf-btn-primary-bg: var(--tf-blue1); /* Dark blue for primary buttons */
   --tf-btn-hover-bg: var(--tf-blue2); /* Medium blue on hover */
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
 /* Social media icon styling */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-blue1);
+  fill: var(--tf-icon-fill);
   height: 1.75em;
   width: 1.75em;
   vertical-align: -.1em;
