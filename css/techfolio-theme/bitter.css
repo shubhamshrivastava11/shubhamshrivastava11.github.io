@@ -1,37 +1,32 @@
-/* Import Poppins and Source Code Pro fonts */
+/* Import Poppins for general text and Source Code Pro for code elements */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Root variables for vibrant blue theme */
+/* Root variables for professional color scheme */
 :root {
-  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
-  --bs-link-color: #2979ff; /* Vibrant blue for links */
-  --tf-pill-bg: #4fc3f7; /* Cyan for pill backgrounds */
-  --tf-icon-fill: #ffffff; /* White for icons */
-  --tf-icon-hover: #2979ff; /* Vibrant blue hover for icons */
-  --tf-page-bg-color: #e3f2fd; /* Light blue background */
-  --tf-footer-bg-color: #1a237e; /* Dark blue footer for strong contrast */
-  --tf-footer-text-color: #e0e0e0; /* Softer white for footer text */
-  --tf-projects-bg-color: #90caf9; /* Light blue for project section */
-  --tf-btn-primary-bg: #1e88e5; /* Vibrant blue for buttons */
-  --tf-btn-hover-bg: #1565c0; /* Darker blue for hover */
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Clean and modern font */
+  --bs-font-mono: "Source Code Pro", monospace; /* Monospace for code elements */
+  --bs-primary-color: #0d47a1; /* Deep navy blue */
+  --bs-secondary-color: #ffc107; /* Golden accents for buttons and highlights */
+  --bs-bg-color: #f4f6f8; /* Light gray background */
+  --bs-link-color: #0d47a1; /* Navy blue for links */
+  --bs-link-hover-color: #ffab00; /* Gold hover effect for links */
+  --bs-card-bg-color: #ffffff; /* Clean white card background */
+  --bs-footer-bg-color: #0a192f; /* Dark navy footer for strong contrast */
+  --bs-footer-text-color: #e0e0e0; /* Light gray for footer text */
+  --bs-text-color: #333333; /* Darker gray for readable text */
+  --bs-heading-color: #0d47a1; /* Navy blue for headings */
+  --bs-hover-box-shadow: rgba(0, 0, 0, 0.15); /* Soft shadow for hover */
 }
 
-/* Style for social media icons */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.75em;
-  width: 1.75em;
-  vertical-align: -.1em;
-  transition: fill 0.3s ease, transform 0.3s ease;
+/* Font settings */
+body {
+  font-family: var(--bs-font-sans-serif);
+  color: var(--bs-text-color);
+  background-color: var(--bs-bg-color);
+  line-height: 1.8;
 }
 
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
-  transform: scale(1.15); /* Bigger zoom on hover for emphasis */
-}
-
-/* Link styling with smooth color transitions */
+/* Link styling */
 a {
   text-decoration: none;
   color: var(--bs-link-color);
@@ -39,95 +34,184 @@ a {
 }
 
 a:hover {
-  color: #2962ff; /* Slightly darker blue on hover */
+  color: var(--bs-link-hover-color);
 }
 
-/* Navbar branding adjustments for small screens */
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
-}
-
-/* Simplified card footer with a cleaner look */
-.card-footer {
-  background-color: var(--tf-page-bg-color);
-  border-top: none;
-  padding: 1em 1.5em;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.15);
-  font-family: var(--bs-font-sans-serif);
-}
-
-/* Styling for footer */
-.footer {
-  background-color: var(--tf-footer-bg-color);
-  color: var(--tf-footer-text-color);
-  padding: 2em 0;
-  text-align: center;
-  font-family: var(--bs-font-sans-serif);
-}
-
-.footer a {
-  color: var(--tf-footer-text-color);
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: var(--bs-link-color); /* Vibrant blue for links on hover */
-}
-
-/* Cards in the project section */
-.tf-project-card {
-  background-color: var(--tf-projects-bg-color);
-  border: 1px solid #64b5f6;
-  border-radius: 0.5em;
-  transition: box-shadow 0.3s ease;
-}
-
-.tf-project-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* Stronger shadow for dynamic feel */
-}
-
-/* General button styling */
+/* Buttons */
 .btn {
   font-weight: 500;
+  padding: 0.8em 1.5em;
   border-radius: 0.3em;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   font-family: var(--bs-font-sans-serif);
 }
 
 .btn-primary {
-  background-color: var(--tf-btn-primary-bg);
+  background-color: var(--bs-primary-color);
+  color: #fff;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(21, 101, 192, 0.35); /* Stronger shadow for emphasis */
+  background-color: var(--bs-secondary-color);
+  box-shadow: 0 4px 12px var(--bs-hover-box-shadow); /* Subtle shadow for hover */
 }
 
-/* Responsive typography */
+/* Hero section */
+.hero-banner {
+  background-color: var(--bs-primary-color);
+  color: #fff;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+.hero-banner p {
+  font-size: 1.25em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--bs-text-color);
+  height: 2em;
+  width: 2em;
+  vertical-align: -.1em;
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.tf-social:hover {
+  fill: var(--bs-secondary-color);
+  transform: scale(1.15);
+}
+
+/* Card styling */
+.card {
+  background-color: var(--bs-card-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px var(--bs-hover-box-shadow);
+}
+
+/* Portfolio section */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  margin-top: 3em;
+}
+
+.portfolio-item {
+  border-radius: 0.5em;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-item img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio-item .overlay h3 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Testimonial section */
+.testimonials {
+  background-color: var(--bs-bg-color);
+  padding: 4em 0;
+  text-align: center;
+}
+
+.testimonial-card {
+  background-color: var(--bs-card-bg-color);
+  padding: 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 10px var(--bs-hover-box-shadow);
+}
+
+.testimonial-card h3 {
+  font-size: 1.25em;
+  color: var(--bs-primary-color);
+  margin-bottom: 0.5em;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: var(--bs-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bs-footer-bg-color);
+  color: var(--bs-footer-text-color);
+  padding: 2em 0;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.footer a {
+  color: var(--bs-footer-text-color);
+}
+
+.footer a:hover {
+  color: var(--bs-secondary-color);
+}
+
+/* Typography for headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--bs-font-sans-serif);
+  color: var(--bs-heading-color);
   margin-bottom: 0.75em;
-  color: #1a237e; /* Dark blue for heading text */
 }
 
 p {
-  line-height: 1.7;
+  font-family: var(--bs-font-sans-serif);
+  color: var(--bs-text-color);
   margin-bottom: 1.5em;
-  color: #37474f; /* Dark gray for paragraph text */
 }
 
-/* Add border for rounded elements */
-.rounded-circle {
-  border: 1px solid #64b5f6;
-}
-
-.rounded-circle:hover {
-  border-color: var(--bs-link-color); /* Vibrant blue border on hover */
+/* Code block styling */
+pre, code {
+  font-family: var(--bs-font-mono);
+  background-color: #f5f5f5;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  color: #333;
 }
