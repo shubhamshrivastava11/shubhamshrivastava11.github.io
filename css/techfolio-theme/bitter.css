@@ -24,6 +24,7 @@ body {
     radial-gradient(circle at 90% 80%, rgba(246, 90, 255, 0.1) 0%, transparent 20%);
   margin: 0;
   padding: 0;
+  perspective: 1500px; /* Add perspective for 3D effects */
 }
 
 /* Font settings for headers */
@@ -32,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--heading-color);
   margin-bottom: 0.75em;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transform: rotateX(5deg); /* Subtle 3D rotation */
 }
 
 /* Link styling */
@@ -58,13 +60,13 @@ a:hover {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transform: translateY(0);
+  transform: translateY(0) rotateX(10deg); /* Slight rotation */
 }
 
 .btn:hover {
   background: var(--btn-hover-gradient);
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
-  transform: translateY(-3px);
+  transform: translateY(-3px) rotateX(5deg);
 }
 
 .btn:active {
@@ -83,6 +85,7 @@ a:hover {
   background-attachment: fixed;
   position: relative;
   overflow: hidden;
+  transform: translateZ(0); /* Parallax setup */
 }
 
 .hero-banner::before {
@@ -106,6 +109,7 @@ a:hover {
   margin-bottom: 0.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  transform: translateZ(20px) rotateY(10deg); /* More 3D depth */
 }
 
 .hero-banner p {
@@ -123,10 +127,11 @@ a:hover {
   width: 2.5em;
   margin: 0 0.5em;
   transition: all 0.3s ease;
+  transform: rotateZ(20deg); /* Add rotation for 3D */
 }
 
 .tf-social:hover {
-  transform: translateY(-5px) rotate(10deg);
+  transform: translateY(-5px) rotate(10deg) rotateZ(30deg); /* Enhanced 3D hover */
   filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
@@ -139,10 +144,11 @@ a:hover {
   padding: 2em;
   transition: all 0.3s ease;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transform: translateZ(0);
 }
 
 .card:hover {
-  transform: translateY(-10px) rotateX(5deg);
+  transform: translateY(-10px) rotateX(5deg) translateZ(20px); /* More dynamic 3D hover */
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
@@ -152,7 +158,7 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2em;
   padding: 4em 0;
-  perspective: 1000px;
+  perspective: 1500px;
 }
 
 .portfolio-item {
@@ -170,7 +176,7 @@ a:hover {
 }
 
 .portfolio-item:hover {
-  transform: rotateY(10deg);
+  transform: rotateY(10deg) translateZ(40px); /* Add 3D depth */
 }
 
 .portfolio-item:hover img {
@@ -203,7 +209,7 @@ a:hover {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* Testimonial section with floating cards */
+/* Floating Testimonial cards */
 .testimonials {
   padding: 4em 0;
   background-color: var(--background-color);
@@ -219,96 +225,15 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   animation: float 6s ease-in-out infinite;
+  transform: translateZ(0); /* Floating effect */
 }
 
 @keyframes float {
-  0% { transform: translatey(0px); }
-  50% { transform: translatey(-20px); }
-  100% { transform: translatey(0px); }
+  0% { transform: translatey(0px) translateZ(0); }
+  50% { transform: translatey(-20px) translateZ(20px); }
+  100% { transform: translatey(0px) translateZ(0); }
 }
 
 .testimonial-card:nth-child(even) {
   animation-delay: -3s;
-}
-
-.testimonial-card h3 {
-  font-family: 'Playfair Display', serif;
-  color: var(--accent-color);
-  margin-bottom: 0.5em;
-}
-
-.testimonial-card p {
-  font-style: italic;
-  color: var(--text-color);
-}
-
-/* Footer with neon effect */
-.footer {
-  background-color: #1a1a1a;
-  color: var(--text-color);
-  padding: 3em 0;
-  text-align: center;
-  position: relative;
-}
-
-.footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color), var(--accent-color));
-  animation: neon 3s linear infinite;
-}
-
-@keyframes neon {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(360deg); }
-}
-
-.footer a {
-  color: var(--secondary-color);
-  transition: all 0.3s ease;
-}
-
-.footer a:hover {
-  color: var(--accent-color);
-  text-shadow: 0 0 10px var(--accent-color);
-}
-
-/* Typography for paragraphs */
-p {
-  color: var(--text-color);
-  margin-bottom: 1.5em;
-  line-height: 1.7;
-}
-
-/* Code block styling with neon border */
-pre, code {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #2d3436;
-  padding: 1em;
-  border-radius: 0.5em;
-  color: #00cec9;
-  box-shadow: 0 0 10px rgba(0, 206, 201, 0.5);
-  border: 1px solid #00cec9;
-}
-
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--background-color);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--secondary-color);
 }
