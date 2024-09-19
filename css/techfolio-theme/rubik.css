@@ -5,21 +5,21 @@
 :root {
   --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for body text */
   --bs-font-headings: "Rubik", sans-serif; /* Rubik for headers */
-  --bs-link-color: #2c6b2f; /* Modern green for links */
-  --tf-pill-bg: #a0d6a0; /* Soft green for pill backgrounds */
+  --bs-link-color: #1e3a8a; /* Vibrant blue for links */
+  --tf-pill-bg: #93c5fd; /* Soft blue for pill backgrounds */
   --tf-icon-fill: #6b6b6b; /* Gray icon color */
-  --tf-icon-hover: #388e3c; /* Vibrant green on icon hover */
-  --tf-page-bg-color: #f8f9fa; /* Light gray background for a clean look */
-  --tf-footer-bg-color: #e8f5e9; /* Very light green for footer */
-  --tf-projects-bg-color: #f1f1f1; /* Light background for projects */
-  --tf-btn-primary-bg: #4caf50; /* Bright green for buttons */
-  --tf-btn-hover-bg: #388e3c; /* Darker green on hover */
+  --tf-icon-hover: #2563eb; /* Vibrant blue on icon hover */
+  --tf-page-bg-color: #f8fafc; /* Light gray background for a clean look */
+  --tf-footer-bg-color: #dbeafe; /* Very light blue for footer */
+  --tf-projects-bg-color: #f1f5f9; /* Light background for projects */
+  --tf-btn-primary-bg: #3b82f6; /* Bright blue for buttons */
+  --tf-btn-hover-bg: #2563eb; /* Darker blue on hover */
 }
 
 /* Use Rubik for headings */
 h1, h2, h3, h4, h5 {
   font-family: var(--bs-font-headings);
-  color: var(--bs-link-color); /* Green for headings */
+  color: var(--bs-link-color); /* Blue for headings */
 }
 
 /* Social media icon styling */
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: #1b5e20; /* Darker green for link hover */
+  color: #1e40af; /* Darker blue for link hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -83,7 +83,7 @@ a:hover {
 }
 
 .footer a:hover {
-  color: #1b5e20; /* Dark green hover for footer links */
+  color: #1e40af; /* Dark blue hover for footer links */
 }
 
 /* Project cards with clean styling */
@@ -133,5 +133,5 @@ p {
 }
 
 .rounded-circle:hover {
-  border-color: var(--bs-link-color); /* Green border on hover */
+  border-color: var(--bs-link-color); /* Blue border on hover */
 }
