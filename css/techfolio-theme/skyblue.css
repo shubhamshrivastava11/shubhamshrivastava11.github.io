@@ -1,31 +1,31 @@
-/* Skyblue Theme: modifies the default theme with vibrant blues and modern fonts */
+/* Blue Color Theme: modifies the default theme with vibrant blues and modern fonts */
 
 /* Use Poppins for body text and Rubik for headers */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;700&display=swap");
 
-/* Root variables for skyblue theme */
+/* Root variables for blue color theme */
 :root {
-  --tf-blue1: #076db3; /* Dark blue */
-  --tf-blue2: #1b6fa9; /* Medium blue */
-  --tf-blue3: #2f8ed0; /* Light blue */
-  --tf-blue4: #bde3f0; /* Pale blue */
+  --blue-dark: #003366; /* Navy blue */
+  --blue-medium: #0059b3; /* Royal blue */
+  --blue-light: #3399ff; /* Lighter blue */
+  --blue-pale: #e6f2ff; /* Very light blue */
   --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for body text */
   --bs-font-headings: "Rubik", sans-serif; /* Rubik for headers */
-  --bs-link-color: var(--tf-blue1); /* Link color is dark blue */
-  --tf-pill-bg: var(--tf-blue3); /* Pill background is light blue */
-  --tf-icon-fill: var(--tf-blue1); /* Icon color is dark blue */
-  --tf-icon-hover: var(--tf-blue3); /* Light blue on hover */
+  --bs-link-color: var(--blue-dark); /* Link color navy blue */
+  --tf-pill-bg: var(--blue-light); /* Light blue pill background */
+  --tf-icon-fill: var(--blue-dark); /* Dark blue for icons */
+  --tf-icon-hover: var(--blue-light); /* Lighter blue on hover */
   --tf-page-bg-color: var(--bs-white); /* White page background */
-  --tf-footer-bg-color: var(--tf-blue4); /* Pale blue footer */
-  --tf-projects-bg-color: var(--tf-blue4); /* Pale blue for projects */
-  --tf-btn-primary-bg: var(--tf-blue1); /* Dark blue for primary buttons */
-  --tf-btn-hover-bg: var(--tf-blue2); /* Medium blue on hover */
+  --tf-footer-bg-color: var(--blue-pale); /* Very light blue for footer */
+  --tf-projects-bg-color: var(--blue-pale); /* Very light blue for projects */
+  --tf-btn-primary-bg: var(--blue-medium); /* Royal blue for primary buttons */
+  --tf-btn-hover-bg: var(--blue-light); /* Lighter blue on hover */
 }
 
-/* Use Rubik for headings */
+/* Headings use Rubik and dark blue */
 h1, h2, h3, h4, h5 {
   font-family: var(--bs-font-headings);
-  color: var(--tf-blue1); /* Default dark blue for headings */
+  color: var(--blue-dark);
 }
 
 /* Social media icon styling */
@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5 {
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
-  transform: scale(1.15); /* Slight zoom on hover */
+  transform: scale(1.15); /* Zoom effect on hover */
 }
 
-/* Link styling with smooth transitions */
+/* Link styling */
 a {
   text-decoration: none;
   color: var(--bs-link-color);
@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-  color: #034a7f; /* Darker blue for link hover */
+  color: #00294d; /* Even darker navy for hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -65,34 +65,34 @@ a:hover {
   }
 }
 
-/* Round borders for images */
+/* Rounded borders for images */
 .rounded-circle {
-  border-color: var(--tf-blue1);
+  border-color: var(--blue-dark);
   border-style: solid;
   border-width: 1px;
   transition: border-color 0.3s ease;
 }
 
 .rounded-circle:hover {
-  border-color: var(--tf-blue3); /* Light blue border on hover */
+  border-color: var(--blue-light); /* Lighter blue border on hover */
 }
 
 /* Footer design */
 .footer {
   background-color: var(--tf-footer-bg-color);
-  color: var(--tf-blue1);
+  color: var(--blue-dark);
   padding: 2em 0;
   text-align: center;
   font-family: var(--bs-font-sans-serif);
 }
 
 .footer a {
-  color: var(--tf-blue1);
+  color: var(--blue-dark);
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #034a7f; /* Darker blue hover for footer links */
+  color: #00294d; /* Darker blue hover for footer links */
 }
 
 /* Project card design */
