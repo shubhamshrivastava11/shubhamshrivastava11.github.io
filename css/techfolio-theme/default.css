@@ -1,20 +1,20 @@
 /* Import Poppins and Source Code Pro fonts for a clean and modern look */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
-/* Root variables for subtle theme customization with white base */
+/* Root variables for a vibrant blue theme */
 :root {
   --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for a modern, vibrant look */
-  --bs-link-color: #007bff; /* Bright blue for links */
-  --bs-link-hover-color: #0056b3; /* Darker blue for link hover */
-  --tf-pill-bg: #f1f3f5; /* Light gray for pill backgrounds */
-  --tf-icon-fill: #6c757d; /* Gray for icons */
-  --tf-icon-hover: #007bff; /* Blue hover effect for icons */
-  --tf-page-bg-color: #ffffff; /* Clean white background */
-  --tf-footer-bg-color: #f8f9fa; /* Light gray footer */
-  --tf-footer-text-color: #343a40; /* Dark gray for footer text */
-  --tf-projects-bg-color: #f7f7f7; /* Light background for projects */
-  --tf-btn-primary-bg: #007bff; /* Bright blue for buttons */
-  --tf-btn-hover-bg: #0056b3; /* Darker blue for button hover */
+  --bs-link-color: #ffffff; /* White for links */
+  --bs-link-hover-color: #dbeafe; /* Light blue for link hover */
+  --tf-pill-bg: #60a5fa; /* Vibrant blue for pill backgrounds */
+  --tf-icon-fill: #dbeafe; /* Light blue for icons */
+  --tf-icon-hover: #ffffff; /* White hover effect for icons */
+  --tf-page-bg-color: #1e3a8a; /* Vibrant blue background for page */
+  --tf-footer-bg-color: #1e40af; /* Darker blue for footer */
+  --tf-footer-text-color: #ffffff; /* White for footer text */
+  --tf-projects-bg-color: #3b82f6; /* Bright blue background for projects */
+  --tf-btn-primary-bg: #60a5fa; /* Light blue for buttons */
+  --tf-btn-hover-bg: #2563eb; /* Darker blue for button hover */
 }
 
 /* Style for social media icons with subtle interaction */
@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: var(--bs-link-hover-color); /* Darker blue on hover */
+  color: var(--bs-link-hover-color); /* Light blue on hover */
 }
 
 /* Navbar branding adjustments for small screens */
@@ -78,13 +78,13 @@ a:hover {
 }
 
 .footer a:hover {
-  color: var(--bs-link-color); /* Blue for footer links on hover */
+  color: var(--bs-link-hover-color); /* Light blue for footer links on hover */
 }
 
 /* Cards in the project section */
 .tf-project-card {
   background-color: var(--tf-projects-bg-color);
-  border: 1px solid #dee2e6;
+  border: 1px solid #2563eb;
   border-radius: 0.5em;
   transition: box-shadow 0.3s ease;
 }
@@ -108,27 +108,27 @@ a:hover {
 
 .btn-primary:hover {
   background-color: var(--tf-btn-hover-bg);
-  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2); /* Soft shadow on button hover */
+  box-shadow: 0 4px 10px rgba(38, 99, 235, 0.2); /* Soft shadow on button hover */
 }
 
 /* Responsive typography for headers and text */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--bs-font-sans-serif);
-  color: #343a40; /* Dark gray for headers */
+  color: #ffffff; /* White for headers */
   margin-bottom: 0.75em;
 }
 
 p {
   line-height: 1.7;
-  color: #495057; /* Slightly lighter gray for text */
+  color: #dbeafe; /* Light blue for text */
   margin-bottom: 1.5em;
 }
 
 /* Add subtle border for rounded elements */
 .rounded-circle {
-  border: 1px solid #dee2e6;
+  border: 1px solid #ffffff;
 }
 
 .rounded-circle:hover {
-  border-color: var(--bs-link-color); /* Blue border on hover */
+  border-color: var(--bs-link-hover-color); /* Light blue border on hover */
 }
