@@ -1,156 +1,185 @@
 {
-  "basics": {
-    "name": "Shubham Shrivastava",
-    "label": "Software and Product Management Professional",
-    "picture": "https://github.com/shubhamshrivastava11.png",
-    "email": "shrivastava@oakland.edu",
-    "phone": "224-578-8986",
-    "website": "https://shubhamshrivastava11.github.io/",
-    "summary": "Results-driven product management professional with over 4 years of experience in software development, product lifecycle management, and strategic data analysis. Expert in crafting and executing product roadmaps, translating complex requirements into actionable features, and optimizing cross-functional team collaboration. Proven ability to leverage data insights for scalable, user-centric solutions that align with business objectives, driving significant improvements in product performance and user engagement.",
-    "location": {
-      "address": "",
-      "postalCode": "48307",
-      "city": "Detroit",
-      "countryCode": "USA",
-      "region": "Michigan"
+    "basics": {
+        "name": "Shubham Shrivastava",
+        "label": "Product Analyst & Business Analyst",
+        "picture": "https://github.com/shubhamshrivastava11.png",
+        "email": "shubhamshrivastava813@gmail.com",
+        "phone": "224-578-8986",
+        "website": "https://shubhamshrivastava11.github.io/",
+        "summary": "Product and business analysis professional with 5+ years of experience in requirement gathering, process mapping, data analysis, and cross-functional collaboration. Adept at translating complex business needs into actionable user stories and ensuring successful delivery through strong project management and analytical capabilities. Skilled in leveraging data insights to drive product enhancements and improve user engagement, while aligning with compliance and organizational goals.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Jersey City",
+            "countryCode": "USA",
+            "region": "New Jersey"
+        },
+        "profiles": [
+            {
+                "network": "github",
+                "username": "shubhamshrivastava11",
+                "url": "https://github.com/shubhamshrivastava11"
+            },
+            {
+                "network": "linkedin",
+                "username": "shubhamshrivastava11",
+                "url": "https://linkedin.com/in/shubhamshrivastava11"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "shubhamshrivastava11",
-        "url": "https://github.com/shubhamshrivastava11"
-      },
-      {
-        "network": "linkedin",
-        "username": "Shubham Shrivastava",
-        "url": ""
-      }
+    "interests": [
+        { "name": "Product Management and Strategy" },
+        { "name": "Business and Data Analysis" },
+        { "name": "Process Mapping and Process Improvement" },
+        { "name": "Data Visualization and Reporting" },
+        { "name": "Agile and Scrum Methodologies" }
+    ],
+    "skills": [
+        {
+            "name": "Business Analysis",
+            "keywords": [
+                "Requirements Gathering",
+                "Process Mapping",
+                "BRD/FSD Documentation",
+                "User Stories",
+                "UAT Coordination",
+                "Process Improvement"
+            ]
+        },
+        {
+            "name": "Product Analysis",
+            "keywords": [
+                "Feature Prioritization",
+                "Backlog Grooming",
+                "Cross-functional Collaboration",
+                "Release Planning",
+                "Go-to-Market Coordination"
+            ]
+        },
+        {
+            "name": "Data Analysis & Visualization",
+            "keywords": [
+                "SQL",
+                "Power BI",
+                "Excel",
+                "Google Analytics",
+                "Data Visualization",
+                "Operational Data Analysis"
+            ]
+        },
+        {
+            "name": "Project Management & Collaboration Tools",
+            "keywords": [
+                "JIRA",
+                "Confluence",
+                "Trello",
+                "Asana",
+                "SharePoint",
+                "Microsoft Teams",
+                "Visio",
+                "Figma"
+            ]
+        },
+        {
+            "name": "CRM & Integration",
+            "keywords": [
+                "Salesforce",
+                "Mulesoft",
+                "Microsoft Access"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Oakland University",
+            "area": "Information Technology Management",
+            "studyType": "M.S.",
+            "startDate": "2022-01-05",
+            "endDate": "2023-12-16",
+            "courses": []
+        },
+        {
+            "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+            "area": "Computer Science",
+            "studyType": "B.E.",
+            "startDate": "2013-08-08",
+            "endDate": "2017-05-26",
+            "courses": []
+        }
+    ],
+    "work": [
+        {
+            "company": "Cygnus Compliance Consulting",
+            "position": "Associate",
+            "location": "New York, NY",
+            "startDate": "2025-01-01",
+            "endDate": "Present",
+            "highlights": [
+                "Drove business and data analysis for a Nested Enhancement Tool supporting SWIFT MT to MX migration, expanding field coverage by 160% to align with regulatory standards.",
+                "Created end-to-end process maps and Visio workflows to standardize compliance and technology handoffs.",
+                "Automated compliance data extraction using SQL and Excel, reducing manual reporting time.",
+                "Built Power BI dashboards to track nested transaction distribution, regional patterns, and compliance risks.",
+                "Tracked project milestones and compliance KPIs in JIRA, improving project visibility and ensuring on-time delivery.",
+                "Collaborated with compliance, legal, and IT teams to align on data field mapping and reporting templates."
+            ]
+        },
+        {
+            "company": "Digital iTechnology",
+            "position": "Product Analyst",
+            "location": "Austin, TX",
+            "startDate": "2024-03-01",
+            "endDate": "2024-12-31",
+            "highlights": [
+                "Captured and documented business requirements into user stories and acceptance criteria for 12+ product features.",
+                "Performed SQL data analysis to prioritize high-value features, reducing low-impact development.",
+                "Built Power BI dashboards to track feature usage, bug resolution, and product performance across sprints.",
+                "Coordinated UAT sessions and validated 90+ test cases, ensuring system readiness for go-live.",
+                "Aligned product release schedule with go-to-market campaigns to maximize user acquisition and engagement."
+            ]
+        },
+        {
+            "company": "Openlogix (K2 Partnering Solutions)",
+            "position": "Intern",
+            "location": "Bloomfield Hills, MI",
+            "startDate": "2023-06-01",
+            "endDate": "2023-09-30",
+            "highlights": [
+                "Documented business and functional requirements for Salesforce migration project, expediting project kickoff.",
+                "Queried SQL data to identify and resolve inconsistencies, reducing post-migration errors.",
+                "Tracked user stories, risks, and change requests in JIRA, maintaining project transparency.",
+                "Coordinated and executed UAT, ensuring timely defect closure and smooth transition to production.",
+                "Achieved real-time synchronization of 1 million+ records in under 15 minutes, improving data flow and system reliability."
+            ]
+        },
+        {
+            "company": "Worldsoft Technologies Pvt Ltd",
+            "position": "Analyst",
+            "location": "Bhopal, India",
+            "startDate": "2018-01-01",
+            "endDate": "2020-11-30",
+            "highlights": [
+                "Gathered business requirements and created process flows to define workflows for hyperlocal services platform.",
+                "Collaborated with developers and designers using Figma to align wireframes and reduce design rework.",
+                "Analyzed operational data using SQL to identify delivery bottlenecks and optimize fulfillment processes.",
+                "Tracked project progress and KPIs in SharePoint, ensuring leadership visibility into timelines and risks.",
+                "Partnered with marketing to prioritize feature launches, helping onboard 10,000+ users in the first 45 days."
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Product Analytics Micro-Certification (PDC)™"
+        },
+        {
+            "name": "Advanced Google Analytics"
+        },
+        {
+            "name": "Salesforce Certified Mulesoft Integration Associate"
+        }
+    ],
+    "references": [
+        {
+            "name": "Available upon request"
+        }
     ]
-  },
-  "interests": [
-    { "name": "Product Management and Strategy" },
-    { "name": "Prototyping and Wireframing (Figma, Canva)" },
-    { "name": "3D Graphics and Data Visualization" },
-    { "name": "System Integration and API Management" },
-    { "name": "Agile and Lean Methodologies" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [
-        "Python",
-        "Java",
-        "Figma",
-        "Jira",
-        "Lucid Charts",
-        "Google Analytics",
-        "Power BI",
-        "Microsoft Suite",
-        "SQL",
-        "Advanced Google Analytics Certified",
-        "Apple Search Ads Certified",
-        "Product Discovery Micro-Certification (PDC)™️",
-        "Artificial Intelligence Micro-Certification (AIC)™️",
-        "Salesforce Certified Mulesoft Integration Associate"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": ["MacOS", "Windows", "Ubuntu", "Git/GitHub"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Oakland University, Michigan, USA",
-      "area": "Information Technology Management",
-      "studyType": "M.S.",
-      "startDate": "2022-01-05",
-      "endDate": "2023-12-16",
-      "courses": [
-        "Intro Database/Data Warehouse",
-        "System Analysis and Design",
-        "Project Management",
-        "Business IT Collaboration",
-        "Business Application Technology",
-        "Digital Product Innovation",
-        "IS Risk Analysis",
-        "Project Seminar"
-      ]
-    },
-    {
-      "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya, M.P., India",
-      "area": "Computer Science",
-      "studyType": "B.S.",
-      "startDate": "2013-08-08",
-      "endDate": "2017-05-26",
-      "courses": [
-        "Data Structures and Algorithms",
-        "Computer Networking",
-        "Operating System",
-        "Object Oriented Programming",
-        "Web Development"
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "Word of Life Outreach Ministries",
-      "position": "Product Manager",
-      "location": "Austin, TX (Remote)",
-      "startDate": "2024-03-04",
-      "endDate": "Present",
-      "highlights": [
-        "Led the development and launch of Clarity Compass, a stress management app for women aged 21-40.",
-        "Managed the product roadmap and oversaw its deployment to the Apple App Store and Google Play Store."
-      ]
-    },
-    {
-      "company": "Openlogix (K2 Company)",
-      "position": "Associate Consultant",
-      "location": "Bloomfield Hills, MI",
-      "startDate": "2023-06-01",
-      "endDate": "2023-12-15",
-      "highlights": [
-        "Spearheaded migrating legacy systems to SaaS platforms using Mulesoft and automation tools, improving system performance.",
-        "Synchronized over 1 million records within 15 minutes, managing extensive datasets, and ensuring real-time data availability."
-      ]
-    },
-    {
-      "company": "Department of Financial Services, Oakland University",
-      "position": "Project Coordinator",
-      "startDate": "2022-05-26",
-      "endDate": "2023-04-15",
-      "highlights": [
-        "Directed end-to-end planning, market research, and execution of the RNL Engage software implementation.",
-        "Increasing alumni engagement by 20% through feature prioritization and roadmap execution."
-      ]
-    },
-    {
-      "company": "Streetingo Inc",
-      "location": "New Delhi, India",
-      "position": "Associate Product Manager",
-      "startDate": "2020-12-01",
-      "endDate": "2021-11-25",
-      "highlights": [
-        "Led go-to-market growth strategy for Streetingo Android application, from ideation to Google Play Store launch.",
-        "Achieving an 18% increase in daily active users for B2B and B2C Clients through AdTech integration."
-      ]
-    },
-    {
-      "company": "Worldsoft Technologies Pvt Ltd",
-      "position": "Software Development Engineer",
-      "location": "Bhopal, MP, India",
-      "startDate": "2018-01-01",
-      "endDate": "2020-11-01",
-      "highlights": [
-        "Developed scalable J2EE applications and implemented REST APIs with Spring Boot.",
-        "Improved code quality using test-driven development and tools like JUnit and Mockito."
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
 }
