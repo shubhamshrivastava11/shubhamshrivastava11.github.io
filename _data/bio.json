@@ -7,12 +7,12 @@
     "phone": "+1 (224)-578-8986",
     "website": "https://shubhamshrivastava11.github.io/",
     "summary": "I am a Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and platform growth. I specialize in regulatory automation, risk analytics, fraud prevention, and data-driven decision-making to optimize efficiency and reduce operational risks.",
-    "location": { 
-      "address": "", 
-      "postalCode": "07307", 
-      "city": "Jersey City", 
-      "countryCode": "USA", 
-      "region": "New Jersey" 
+    "location": {
+      "address": null,
+      "postalCode": "07307",
+      "city": "Jersey City",
+      "countryCode": "USA",
+      "region": "New Jersey"
     },
     "profiles": [
       { "network": "GitHub", "username": "shubhamshrivastava11", "url": "https://github.com/shubhamshrivastava11" },
@@ -30,11 +30,11 @@
   "skills": [
     {
       "name": "Product & Data Tools",
-      "keywords": [ "SQL", "Python", "Power BI", "Tableau", "JIRA", "Figma" ]
+      "keywords": ["SQL", "Python", "Power BI", "Tableau", "JIRA", "Figma"]
     },
     {
       "name": "Project & Risk Management",
-      "keywords": [ "Scrum", "Kanban", "SAFe Agile", "Risk Analysis", "Compliance Automation" ]
+      "keywords": ["Scrum", "Kanban", "SAFe Agile", "Risk Analysis", "Compliance Automation"]
     }
   ],
   "education": [
@@ -59,9 +59,9 @@
     {
       "company": "Cygnus Compliance Consulting",
       "position": "Associate (Product Manager, Compliance)",
-      "website": "",
+      "website": null,
       "startDate": "2025-01-01",
-      "endDate": "Present",
+      "endDate": null,
       "summary": "Leading compliance automation and risk management initiatives.",
       "highlights": [
         "Spearheaded compliance automation, eliminating 500+ manual reporting hours annually and reducing operational costs by $450K.",
@@ -72,7 +72,7 @@
     {
       "company": "Digital iTechnology",
       "position": "Product Manager/ Analyst",
-      "website": "",
+      "website": null,
       "startDate": "2024-03-01",
       "endDate": "2024-12-31",
       "summary": "Managed fraud prevention models and regulatory automation solutions.",
@@ -85,10 +85,10 @@
   "volunteer": [
     {
       "organization": "Data & Compliance Community Initiatives",
-      "website": "",
+      "website": null,
       "position": "Mentor & Speaker",
       "startDate": "2022-01-01",
-      "endDate": "Present",
+      "endDate": null,
       "summary": "Guiding young professionals in fintech and compliance automation.",
       "highlights": [
         "Mentored aspiring product managers and analysts in data-driven decision-making.",
