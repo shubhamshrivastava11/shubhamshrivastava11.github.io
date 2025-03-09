@@ -1,91 +1,103 @@
 {
     "basics": {
         "name": "Shubham Shrivastava",
-        "label": "Product Analyst & Business Analyst",
+        "label": "Product Manager & Business Analyst",
         "picture": "https://github.com/shubhamshrivastava11.png",
         "email": "shubhamshrivastava813@gmail.com",
-        "phone": "224-578-8986",
+        "phone": "+1 (224)-578-8986",
         "website": "https://shubhamshrivastava11.github.io/",
-        "summary": "Product and business analysis professional with 5+ years of experience in requirement gathering, process mapping, data analysis, and cross-functional collaboration. Adept at translating complex business needs into actionable user stories and ensuring successful delivery through strong project management and analytical capabilities. Skilled in leveraging data insights to drive product enhancements and improve user engagement, while aligning with compliance and organizational goals.",
+        "summary": "Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and platform growth. Specialized in regulatory automation, risk analytics, fraud prevention, and data-driven decision-making to optimize efficiency and reduce operational risks. Partnered with the C-level executives of global banks, leading initiatives that automated regulatory reporting, reduced compliance costs, and improved fraud detection accuracy by 25%.",
         "location": {
-            "address": "",
-            "postalCode": "",
             "city": "Jersey City",
             "countryCode": "USA",
             "region": "New Jersey"
         },
         "profiles": [
             {
-                "network": "github",
+                "network": "GitHub",
                 "username": "shubhamshrivastava11",
                 "url": "https://github.com/shubhamshrivastava11"
             },
             {
-                "network": "linkedin",
+                "network": "LinkedIn",
                 "username": "shubhamshrivastava11",
                 "url": "https://linkedin.com/in/shubhamshrivastava11"
             }
         ]
     },
     "interests": [
-        { "name": "Product Management and Strategy" },
-        { "name": "Business and Data Analysis" },
-        { "name": "Process Mapping and Process Improvement" },
-        { "name": "Data Visualization and Reporting" },
-        { "name": "Agile and Scrum Methodologies" }
+        { "name": "Product Strategy & Execution" },
+        { "name": "Data Analytics & Compliance" },
+        { "name": "Fraud Prevention & Risk Management" },
+        { "name": "Regulatory Reporting Automation" },
+        { "name": "Agile & Scrum Methodologies" }
     ],
     "skills": [
         {
-            "name": "Business Analysis",
+            "name": "Product Strategy & Execution",
             "keywords": [
-                "Requirements Gathering",
-                "Process Mapping",
-                "BRD/FSD Documentation",
-                "User Stories",
-                "UAT Coordination",
-                "Process Improvement"
-            ]
-        },
-        {
-            "name": "Product Analysis",
-            "keywords": [
+                "Roadmap Planning",
                 "Feature Prioritization",
-                "Backlog Grooming",
-                "Cross-functional Collaboration",
-                "Release Planning",
-                "Go-to-Market Coordination"
+                "Go-To-Market Strategy",
+                "A/B Testing",
+                "Competitive Analysis"
             ]
         },
         {
-            "name": "Data Analysis & Visualization",
+            "name": "Data & Compliance",
             "keywords": [
                 "SQL",
+                "Python (Automation & API Integration)",
                 "Power BI",
-                "Excel",
-                "Google Analytics",
-                "Data Visualization",
-                "Operational Data Analysis"
+                "Tableau",
+                "Regulatory Reporting",
+                "Risk Management"
             ]
         },
         {
-            "name": "Project Management & Collaboration Tools",
+            "name": "Agile & Project Execution",
+            "keywords": [
+                "Scrum",
+                "Kanban",
+                "SAFe Agile",
+                "Sprint Planning",
+                "Milestone Tracking",
+                "Risk & Change Management"
+            ]
+        },
+        {
+            "name": "UI/UX Tools & Technologies",
             "keywords": [
                 "JIRA",
                 "Confluence",
-                "Trello",
+                "Slack",
                 "Asana",
-                "SharePoint",
-                "Microsoft Teams",
+                "Notion",
+                "Figma",
+                "Adobe XD",
+                "Lucidchart",
                 "Visio",
-                "Figma"
+                "Miro"
             ]
         },
         {
-            "name": "CRM & Integration",
+            "name": "API & Integration Testing",
             "keywords": [
-                "Salesforce",
+                "Postman",
                 "Mulesoft",
-                "Microsoft Access"
+                "REST API",
+                "Swagger",
+                "SOAP UI"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps (Basic Understanding)",
+            "keywords": [
+                "AWS",
+                "Azure DevOps",
+                "Google Cloud",
+                "Docker",
+                "Kubernetes"
             ]
         }
     ],
@@ -95,91 +107,92 @@
             "area": "Information Technology Management",
             "studyType": "M.S.",
             "startDate": "2022-01-05",
-            "endDate": "2023-12-16",
-            "courses": []
+            "endDate": "2023-12-16"
         },
         {
             "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
             "area": "Computer Science",
             "studyType": "B.E.",
             "startDate": "2013-08-08",
-            "endDate": "2017-05-26",
-            "courses": []
+            "endDate": "2017-05-26"
         }
     ],
     "work": [
         {
             "company": "Cygnus Compliance Consulting",
-            "position": "Associate",
+            "position": "Associate (Product Manager, Compliance)",
             "location": "New York, NY",
             "startDate": "2025-01-01",
             "endDate": "Present",
             "highlights": [
-                "Drove business and data analysis for a Nested Enhancement Tool supporting SWIFT MT to MX migration, expanding field coverage by 160% to align with regulatory standards.",
-                "Created end-to-end process maps and Visio workflows to standardize compliance and technology handoffs.",
-                "Automated compliance data extraction using SQL and Excel, reducing manual reporting time.",
-                "Built Power BI dashboards to track nested transaction distribution, regional patterns, and compliance risks.",
-                "Tracked project milestones and compliance KPIs in JIRA, improving project visibility and ensuring on-time delivery.",
-                "Collaborated with compliance, legal, and IT teams to align on data field mapping and reporting templates."
+                "Spearheaded compliance automation, eliminating 500+ manual reporting hours annually and reducing operational costs by $450K.",
+                "Partnered with C-level executives to implement a risk-based reporting framework, decreasing compliance penalties by 40%.",
+                "Developed and deployed 5+ Power BI dashboards, enhancing risk assessment visibility and cutting significant reporting time.",
+                "Standardized business workflows using Visio, aligning compliance operations with ISO 20022.",
+                "Led UAT execution for 50+ test cases, achieving a 95% pass rate, reducing post-launch defects, and saving $100K expenses."
             ]
         },
         {
             "company": "Digital iTechnology",
-            "position": "Product Analyst",
+            "position": "Product Manager/ Analyst",
             "location": "Austin, TX",
             "startDate": "2024-03-01",
             "endDate": "2024-12-31",
             "highlights": [
-                "Captured and documented business requirements into user stories and acceptance criteria for 12+ product features.",
-                "Performed SQL data analysis to prioritize high-value features, reducing low-impact development.",
-                "Built Power BI dashboards to track feature usage, bug resolution, and product performance across sprints.",
-                "Coordinated UAT sessions and validated 90+ test cases, ensuring system readiness for go-live.",
-                "Aligned product release schedule with go-to-market campaigns to maximize user acquisition and engagement."
+                "Redesigned fraud detection models, optimizing 12+ risk monitoring features, and preventing $1.2M in potential fraud losses.",
+                "Built interactive Power BI dashboards, driving a 15% increase in feature adoption and improving transaction monitoring accuracy.",
+                "Automated regulatory compliance reporting workflows using SQL & Python, cutting manual effort by 40%, saving $60K annually.",
+                "Executed A/B testing and data-driven experiments, refining fraud detection algorithms, improving detection speed by 20%.",
+                "Managed product roadmap execution, aligning compliance priorities with engineering, and legal teams for risk mitigation."
             ]
         },
         {
             "company": "Openlogix (K2 Partnering Solutions)",
-            "position": "Intern",
+            "position": "Summer Intern",
             "location": "Bloomfield Hills, MI",
             "startDate": "2023-06-01",
             "endDate": "2023-09-30",
             "highlights": [
-                "Documented business and functional requirements for Salesforce migration project, expediting project kickoff.",
-                "Queried SQL data to identify and resolve inconsistencies, reducing post-migration errors.",
-                "Tracked user stories, risks, and change requests in JIRA, maintaining project transparency.",
-                "Coordinated and executed UAT, ensuring timely defect closure and smooth transition to production.",
-                "Achieved real-time synchronization of 1 million+ records in under 15 minutes, improving data flow and system reliability."
+                "Led Salesforce data migration of 1M+ records, resolving 150+ inconsistencies, reducing post-migration cleanup by 40%.",
+                "Designed and deployed SQL-based validation scripts, increasing data accuracy, and preventing $30K in operational disruptions.",
+                "Executed UAT testing, achieving 100% test coverage, ensuring smooth deployment with zero compliance issues."
+            ]
+        },
+        {
+            "company": "Oakland University Financial Services",
+            "position": "Project Coordinator",
+            "location": "Rochester, MI",
+            "startDate": "2022-05-01",
+            "endDate": "2023-04-30",
+            "highlights": [
+                "Managed project documentation, stakeholder communication, and budget planning, optimizing resource allocation.",
+                "Streamlined business workflows using Salesforce and JIRA, improving operational efficiency.",
+                "Facilitated project collaboration using Slack, enhancing team productivity."
             ]
         },
         {
             "company": "Worldsoft Technologies Pvt Ltd",
-            "position": "Analyst",
+            "position": "Associate Product Manager / Offshore Coordinator",
             "location": "Bhopal, India",
             "startDate": "2018-01-01",
             "endDate": "2020-11-30",
             "highlights": [
-                "Gathered business requirements and created process flows to define workflows for hyperlocal services platform.",
-                "Collaborated with developers and designers using Figma to align wireframes and reduce design rework.",
-                "Analyzed operational data using SQL to identify delivery bottlenecks and optimize fulfillment processes.",
-                "Tracked project progress and KPIs in SharePoint, ensuring leadership visibility into timelines and risks.",
-                "Partnered with marketing to prioritize feature launches, helping onboard 10,000+ users in the first 45 days."
+                "Launched 10+ product features for a food delivery marketplace, decreasing order processing time by 18% and increasing checkout conversion rates by 12%.",
+                "Designed customer segmentation, driving a 10% increase in average order value, generating $500K in additional revenue.",
+                "Optimized UI/UX workflows using Figma, reducing engineering iterations and accelerating development speed.",
+                "Automated merchant onboarding, decreasing activation time, increasing partner revenue by $1M+ within six months.",
+                "Conducted A/B testing on marketing campaigns, improving user retention by 8% and reducing cart abandonment rates."
             ]
         }
     ],
     "certifications": [
-        {
-            "name": "Product Analytics Micro-Certification (PDC)™"
-        },
-        {
-            "name": "Advanced Google Analytics"
-        },
-        {
-            "name": "Salesforce Certified Mulesoft Integration Associate"
-        }
+        { "name": "Certified Scrum Master (CSM)" },
+        { "name": "Product Analytics Micro-Certification (PDC)" },
+        { "name": "Advanced Google Analytics" },
+        { "name": "Fundamentals of Agile Project Management (PMI)" },
+        { "name": "Salesforce Certified Mulesoft Integration Associate" }
     ],
     "references": [
-        {
-            "name": "Available upon request"
-        }
+        { "name": "Available upon request" }
     ]
 }
