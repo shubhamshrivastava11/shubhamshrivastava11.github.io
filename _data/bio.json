@@ -1,14 +1,13 @@
 {
   "basics": {
     "name": "Shubham Shrivastava",
-    "label": "Product Manager & Business Analyst",
+    "label": "Product Manager | Business Analyst | Technology Strategist",
     "picture": "https://github.com/shubhamshrivastava11.png",
     "email": "shubhamshrivastava813@gmail.com",
     "phone": "+1 (224)-578-8986",
     "website": "https://shubhamshrivastava11.github.io/",
-    "summary": "I am a Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and platform growth. I specialize in regulatory automation, risk analytics, ...",
+    "summary": "Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and risk analytics. I specialize in regulatory automation, fraud prevention, and data-driven decision-making to enhance business efficiency and reduce operational risks.",
     "location": {
-      "address": null,
       "postalCode": "07307",
       "city": "Jersey City",
       "countryCode": "USA",
@@ -43,25 +42,21 @@
       "area": "Information Technology Management",
       "studyType": "M.S.",
       "startDate": "2022-01-05",
-      "endDate": "2023-12-16",
-      "courses": []
+      "endDate": "2023-12-16"
     },
     {
       "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, India",
       "area": "Computer Science",
       "studyType": "B.E.",
       "startDate": "2013-08-08",
-      "endDate": "2017-05-26",
-      "courses": []
+      "endDate": "2017-05-26"
     }
   ],
   "work": [
     {
       "company": "Cygnus Compliance Consulting",
       "position": "Associate (Product Manager, Compliance)",
-      "website": null,
       "startDate": "2025-01-01",
-      "endDate": null,
       "summary": "Leading compliance automation and risk management initiatives.",
       "highlights": [
         "Spearheaded compliance automation, eliminating 500+ manual reporting hours annually and reducing operational costs by $450K.",
@@ -71,8 +66,7 @@
     },
     {
       "company": "Digital iTechnology",
-      "position": "Product Manager/ Analyst",
-      "website": null,
+      "position": "Product Manager / Analyst",
       "startDate": "2024-03-01",
       "endDate": "2024-12-31",
       "summary": "Managed fraud prevention models and regulatory automation solutions.",
@@ -85,10 +79,8 @@
   "volunteer": [
     {
       "organization": "Data & Compliance Community Initiatives",
-      "website": null,
       "position": "Mentor & Speaker",
       "startDate": "2022-01-01",
-      "endDate": null,
       "summary": "Guiding young professionals in fintech and compliance automation.",
       "highlights": [
         "Mentored aspiring product managers and analysts in data-driven decision-making.",
