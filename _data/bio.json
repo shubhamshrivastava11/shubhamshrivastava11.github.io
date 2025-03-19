@@ -4,7 +4,7 @@
     "label": "Product Manager | Business Analyst | Technology Strategist",
     "picture": "https://github.com/shubhamshrivastava11.png",
     "email": "shubhamshrivastava813@gmail.com",
-    "phone": "+1 (224)-578-8986",
+    "phone": "+1 (224) 578-8986",
     "website": "https://shubhamshrivastava11.github.io/",
     "summary": "Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and risk analytics. I specialize in regulatory automation, fraud prevention, and data-driven decision-making to enhance business efficiency and reduce operational risks.",
     "location": {
@@ -14,17 +14,39 @@
       "region": "New Jersey"
     },
     "profiles": [
-      { "network": "GitHub", "username": "shubhamshrivastava11", "url": "https://github.com/shubhamshrivastava11" },
-      { "network": "LinkedIn", "username": "shubhamshrivastava11", "url": "https://linkedin.com/in/shubhamshrivastava11" },
-      { "network": "Twitter", "username": "ishubham11", "url": "https://twitter.com/ishubham11" }
+      {
+        "network": "GitHub",
+        "username": "shubhamshrivastava11",
+        "url": "https://github.com/shubhamshrivastava11"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "shubhamshrivastava11",
+        "url": "https://linkedin.com/in/shubhamshrivastava11"
+      },
+      {
+        "network": "Twitter",
+        "username": "ishubham11",
+        "url": "https://twitter.com/ishubham11"
+      }
     ]
   },
   "interests": [
-    { "name": "Product Strategy & Execution" },
-    { "name": "Data Analytics & Compliance" },
-    { "name": "Fraud Prevention & Risk Management" },
-    { "name": "Regulatory Reporting Automation" },
-    { "name": "Agile & Scrum Methodologies" }
+    {
+      "name": "Product Strategy & Execution"
+    },
+    {
+      "name": "Data Analytics & Compliance"
+    },
+    {
+      "name": "Fraud Prevention & Risk Management"
+    },
+    {
+      "name": "Regulatory Reporting Automation"
+    },
+    {
+      "name": "Agile & Scrum Methodologies"
+    }
   ],
   "skills": [
     {
@@ -71,7 +93,7 @@
       "endDate": "2024-12-31",
       "summary": "Managed fraud prevention models and regulatory automation solutions.",
       "highlights": [
-        "Redesigned fraud detection models, optimizing 12+ risk monitoring features, and preventing $1.2M in potential fraud losses.",
+        "Redesigned fraud detection models, optimizing 12+ risk monitoring features and preventing $1.2M in potential fraud losses.",
         "Automated regulatory compliance reporting workflows using SQL & Python, cutting manual effort by 40%, saving $60K annually."
       ]
     }
