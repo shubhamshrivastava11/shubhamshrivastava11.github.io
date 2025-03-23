@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/mra1.png
 title: "My Resident Assistant Portal"
-date: 2022-10-01
+date: 2022
 published: true
 labels:
   - Product Management
