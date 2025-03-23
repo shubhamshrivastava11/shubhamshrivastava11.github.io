@@ -1,43 +1,54 @@
-/* Rubik Theme: modifies the default theme to use the chunkier Rubik for the header fonts. */
+/* Import Poppins for body text, Rubik for headers, and Source Code Pro for code */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;700&display=swap");
 
-/* Use Open Sans as the default font and Roboto for headlines */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
-
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for a modern and vibrant look */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-font-sans-serif: "Poppins", sans-serif; /* Poppins for body text */
+  --bs-font-headings: "Rubik", sans-serif; /* Rubik for headers */
+  --bs-link-color: #1e3a8a; /* Vibrant blue for links */
+  --tf-pill-bg: #93c5fd; /* Soft blue for pill backgrounds */
+  --tf-icon-fill: #6b6b6b; /* Gray icon color */
+  --tf-icon-hover: #2563eb; /* Vibrant blue on icon hover */
+  --tf-page-bg-color: #f8fafc; /* Light gray background for a clean look */
+  --tf-footer-bg-color: #dbeafe; /* Very light blue for footer */
+  --tf-projects-bg-color: #f1f5f9; /* Light background for projects */
+  --tf-btn-primary-bg: #3b82f6; /* Bright blue for buttons */
+  --tf-btn-hover-bg: #2563eb; /* Darker blue on hover */
 }
 
-h1,h2,h3,h4,h5 {
-  font-family: Rubik;
+/* Use Rubik for headings */
+h1, h2, h3, h4, h5 {
+  font-family: var(--bs-font-headings);
+  color: var(--bs-link-color); /* Blue for headings */
 }
 
-/* Format social media icons */
+/* Social media icon styling */
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
-  height: 1.5em;
+  height: 1.75em;
+  width: 1.75em;
   vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  transition: fill 0.3s ease, transform 0.3s ease;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: scale(1.15); /* Subtle zoom effect on hover */
 }
 
+/* Link styles with smooth color transitions */
 a {
   text-decoration: none;
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
 }
 
+a:hover {
+  color: #1e40af; /* Darker blue for link hover */
+}
+
+/* Navbar branding adjustments for small screens */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -48,8 +59,79 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
+/* Simplify the styling of the bottom of Essay cards */
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+  padding: 1em 1.5em;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* Footer design */
+.footer {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--bs-link-color);
+  padding: 2em 0;
+  text-align: center;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.footer a {
+  color: var(--bs-link-color);
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #1e40af; /* Dark blue hover for footer links */
+}
+
+/* Project cards with clean styling */
+.tf-project-card {
+  background-color: var(--tf-projects-bg-color);
+  border: 1px solid #dee2e6;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.tf-project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Buttons with hover effects */
+.btn {
+  font-weight: 500;
+  border-radius: 0.3em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--bs-font-sans-serif);
+}
+
+.btn-primary {
+  background-color: var(--tf-btn-primary-bg);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--tf-btn-hover-bg);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Stronger shadow on hover */
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-headings);
+  margin-bottom: 0.75em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5em;
+}
+
+/* Add subtle border for rounded elements */
+.rounded-circle {
+  border: 1px solid #dee2e6;
+}
+
+.rounded-circle:hover {
+  border-color: var(--bs-link-color); /* Blue border on hover */
 }
