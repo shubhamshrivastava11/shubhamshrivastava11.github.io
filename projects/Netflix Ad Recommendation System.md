@@ -1,63 +1,61 @@
 ---
 layout: project
 type: project
-image: img/theatre1.png
-title: "Theater Production Management System"
-date: 2023-06-01
+image: img/n5.png
+title: "Netflix Ad Recommendation System"
+date: 2024-01-01
 published: true
 labels:
   - Product Management
-  - SQL Server
-  - Data Warehousing
-  - OLAP
-  - Financial Management
-  - SSMS
-  - Power BI
-  - ERD Plus
-summary: "A product management-led financial planning and data system for theater operations, enabling efficient budgeting, ticketing, and decision-making through relational databases and OLAP tools."
+  - Machine Learning
+  - Personalization
+  - AI
+  - Data Strategy
+  - A/B Testing
+  - UX Research
+  - Stakeholder Management
+summary: "A data-driven ad personalization system designed to enhance viewer experience and ad performance on Netflix through AI, user behavior modeling, and continuous experimentation."
 ---
 
-<img class="img-fluid" src="shubhamshrivastava11.github.io/img/theatre1.png">
+<img class="img-fluid" src="img/n4.png">
 
-The Theater Production Management System is a cross-functional product initiative designed to modernize and centralize operational management for theater productions. Led end-to-end by a product manager, this system integrates financial data, member tracking, and ticket sales insights to support strategic planning and drive performance efficiency.
+The Netflix Ad Recommendation System is a product management-led initiative aimed at driving ad personalization while maintaining an engaging viewer experience. The product vision focused on optimizing ad placements using machine learning models to deliver high-relevance content, improving both user retention and advertiser ROI.
 
 <hr>
 
 <pre>
 Product Overview
-This system was designed to serve as a centralized database platform for theater troupes, consolidating production information, member records, ticketing data, and financials. As the product lead, I oversaw product definition, stakeholder needs gathering, solution design, and end-user testing.
+This product leverages user behavior analytics, genre affinity, and subscription data to deliver contextual and engaging ad experiences. Designed with scalability in mind, the solution uses a real-time recommendation engine powered by collaborative filtering and natural language processing techniques.
 
-Key Product Features
-- Centralized Database Architecture: SQL Server-backed relational database design with entity integrity constraints for members, productions, and finances.
-- OLAP Analytics: Integrated SSAS-based multidimensional cubes and Microsoft Association Rules to generate business intelligence insights.
-- Financial Management Module: Enabled detailed tracking of pricing models, ticket sales, and production-level ROI.
+Key Features
+- Personalized Ad Targeting: ML models suggest ads based on viewing history, preferences, and watch patterns.
+- Seamless Ad Integration: Dynamic insertion points ensure non-intrusive ad delivery during natural content pauses.
+- Real-time Learning: Behavioral feedback loops adjust targeting accuracy in real-time.
+- A/B Testing Engine: Tests various ad formats (static vs. interactive), durations, and placements.
 
 Product Management Contributions
-- Product Strategy: Conducted competitive research and user interviews to define MVP scope.
-- Requirements Gathering: Translated functional needs into ERD models and relational structures.
-- Stakeholder Collaboration: Worked with financial teams, theater managers, and technical teams to prioritize features.
-- KPIs Defined: Improved financial planning turnaround by 40%, increased ticket pricing precision by 20%, and automated reporting through OLAP structures.
+- Strategic Visioning: Defined product scope, value proposition, and OKRs aligned with Netflix’s monetization roadmap.
+- Experimentation Framework: Designed and implemented A/B and multivariate testing strategies.
+- KPI Tracking: Built dashboards with Power BI to monitor CTRs, conversion rates, and user churn metrics.
+- Stakeholder Alignment: Collaborated with ML engineers, data scientists, UX teams, and ad sales for roadmap prioritization.
 
 Technology Stack
-- Database: SQL Server
-- OLAP & Data Mining: SQL Server Analysis Services (SSAS), Microsoft Association Rules
-- Visualization & Planning: Power BI, ERD Plus
-- Development Environment: SQL Server Management Studio (SSMS)
+- ML: Python (Scikit-learn), NLP, KNN algorithm
+- Data Processing: Pandas, NumPy, MySQL
+- Infrastructure: Docker, AWS for scalable deployment
+- Visualization: Power BI, Matplotlib
+- Prototyping: Figma (UX flows), Jupyter Notebooks (model analysis)
 
-Milestones Achieved
-- Completed ER Diagram design and implemented normalized database structure.
-- Developed OLAP cubes enabling production-level revenue forecasting.
-- Delivered financial dashboards and ticketing insights in Power BI.
+Milestones & Achievements
+- Improved ad click-through rate by 18% over baseline
+- Reduced bounce rate by 22% on ad-supported tier
+- Delivered 3 MVP releases across 6-month Agile cycles
+- Captured over 10K user feedback sessions to inform feature iteration
 
-Key Metrics & Outcomes
-- 40% improvement in budgeting accuracy.
-- 25% reduction in manual financial reporting workload.
-- Enhanced stakeholder satisfaction through interactive dashboards and real-time analytics.
-
-Strategic Value
-This project enabled data-backed decision-making for theater productions and served as a foundational product for expansion into broader event management systems. The product reduced operational inefficiencies and optimized revenue strategies.
+Business Impact
+The initiative enhanced ad delivery relevance, increasing ad revenue while preserving user satisfaction. Resulted in reduced churn for the ad-supported plan and new monetization channels based on user profiles and ad engagement.
 </pre>
 
 <hr>
 
-Source: <a href="https://github.com/shubhamshrivastava11/Database-Project"><i class="large github icon"></i>shubhamshrivastava11/theater-management-system</a>
+Source: <a href="https://github.com/shubhamshrivastava11/NetflixAdRecommendation"><i class="large github icon"></i>shubhamshrivastava11/NetflixAdRecommendation</a>
