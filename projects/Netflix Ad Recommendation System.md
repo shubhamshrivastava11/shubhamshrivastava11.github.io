@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/n5.png
 title: "Netflix Ad Recommendation System"
-date: 2024-01-01
+date: 2024
 published: true
 labels:
   - Product Management
