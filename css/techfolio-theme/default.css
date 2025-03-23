@@ -1,50 +1,230 @@
-/* Default theme. Simple, yet elegant. */
+/* Import professional and clean fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Montserrat:wght@400;500;700&display=swap');
 
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root variables for a modern color palette */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --primary-color: #34495e; /* Navy Blue */
+  --secondary-color: #f39c12; /* Golden Orange */
+  --accent-color: #2980b9; /* Soft Blue */
+  --background-color: #f4f4f9; /* Off-white */
+  --text-color: #2c3e50; /* Dark Gray */
+  --heading-color: #2c3e50; /* Deep Navy */
+  --card-bg-color: #ffffff; /* Pure White for cards */
+  --btn-gradient: linear-gradient(135deg, #34495e, #2980b9);
+  --btn-hover-gradient: linear-gradient(135deg, #2980b9, #34495e);
+  --portfolio-bg-color: #e8edf3; /* Light blue-gray for a professional background */
+  --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --box-shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Format social media icons */
+/* General body styling */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  perspective: 1500px;
+}
+
+/* Font settings for headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--heading-color);
+  margin-bottom: 0.75em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+/* Buttons with a refined 3D effect */
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0.8em 2em;
+  border-radius: 30px;
+  background: var(--btn-gradient);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transform: translateY(0) rotateX(0); /* Subtle rotation */
+}
+
+.btn:hover {
+  background: var(--btn-hover-gradient);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px) rotateX(3deg);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero section for a clean, modern look */
+.hero-banner {
+  padding: 8em 0;
+  text-align: center;
+  color: var(--heading-color);
+  background-color: var(--primary-color);
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0); /* Parallax setup */
+  background-image: url('https://source.unsplash.com/random/1600x900?business,technology');
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.hero-banner * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-banner h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.hero-banner p {
+  font-size: 1.25em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+  fill: var(--secondary-color);
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0 0.5em;
+  transition: all 0.3s ease;
 }
 
 .tf-social:hover {
-  fill: var(--tf-icon-hover);
+  transform: translateY(-3px);
+  filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
 }
 
-a {
-  text-decoration: none;
+/* Card styling with a clean look */
+.card {
+  background-color: var(--card-bg-color);
+  padding: 2em;
+  border-radius: 1em;
+  transition: all 0.3s ease;
+  box-shadow: var(--box-shadow-light); /* Soft shadow */
 }
 
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-heavy); /* Enhanced shadow on hover */
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
+/* Portfolio section with light background */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  padding: 4em 2em;
+  background-color: var(--portfolio-bg-color); /* Light and professional background */
+}
+
+/* Portfolio item hover effect */
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1em;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item img {
+  width: 100%;
+  border-radius: 1em;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio-item .overlay h3 {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Testimonials with a modern design */
+.testimonials {
+  padding: 4em 0;
+  background-color: var(--background-color);
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-card {
+  background-color: var(--card-bg-color);
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  animation: float 6s ease-in-out infinite;
+  transform: translateZ(0);
+}
+
+@keyframes float {
+  0% { transform: translatey(0px) translateZ(0); }
+  50% { transform: translatey(-15px) translateZ(20px); }
+  100% { transform: translatey(0px) translateZ(0); }
+}
+
+.testimonial-card:nth-child(even) {
+  animation-delay: -3s;
 }
