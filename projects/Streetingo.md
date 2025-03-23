@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/streetingo01.png
 title: "Streetingo Mobile Application"
-date: 2023-05-15
+date: 2019
 published: true
 labels:
   - Product Management
