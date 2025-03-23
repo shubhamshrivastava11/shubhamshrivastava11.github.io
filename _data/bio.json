@@ -1,113 +1,168 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Shubham Shrivastava",
+    "label": "Product Manager | Business Analyst | Technology Strategist",
+    "picture": "https://github.com/shubhamshrivastava11.png",
+    "email": "shubhamshrivastava813@gmail.com",
+    "phone": "+1 (224) 578-8986",
+    "website": "https://shubhamshrivastava11.github.io/",
+    "summary": "Product Manager and Business Analyst with 5+ years of experience in e-commerce, fintech, compliance, and risk analytics. Specialized in regulatory automation, fraud prevention, and data-driven decision-making to enhance business efficiency and reduce operational risks.",
+    "location": {
+      "postalCode": "07307",
+      "city": "Jersey City",
+      "countryCode": "USA",
+      "region": "New Jersey"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "GitHub",
+        "username": "shubhamshrivastava11",
+        "url": "https://github.com/shubhamshrivastava11"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "shubhamshrivastava11",
+        "url": "https://linkedin.com/in/shubhamshrivastava11"
+      },
+      {
+        "network": "Twitter",
+        "username": "ishubham11",
+        "url": "https://twitter.com/ishubham11"
+      }
     ]
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
-  "skills": [
+  "work": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "company": "Cygnus Compliance Consulting",
+      "position": "Associate (Product Manager, Risk & Compliance)",
+      "startDate": "2025-01-01",
+      "summary": "Driving compliance automation and risk platform development for fintech and banking clients.",
+      "highlights": [
+        "Led AML automation initiative saving $450K annually and reducing manual effort by 35%.",
+        "Developed regulatory dashboards in Power BI, cutting reporting time by 40%.",
+        "Integrated ISO 20022 & PCI DSS compliance features across multiple systems.",
+        "Reduced false positives by 30% through fraud detection model enhancement."
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "company": "Digital iTechnology",
+      "position": "Product Manager / Product Owner",
+      "startDate": "2024-03-01",
+      "endDate": "2024-12-31",
+      "summary": "Owned product lifecycle for e-commerce risk and compliance tools.",
+      "highlights": [
+        "Designed 0-1 product features that increased conversion by 15% and reduced stockouts by 20%.",
+        "Implemented A/B testing to optimize checkout flow, decreasing cart abandonment by 12%.",
+        "Led API automation to enhance inventory tracking, saving $60K in operations."
+      ]
+    },
+    {
+      "company": "Openlogix (K2 Partnering Solutions)",
+      "position": "Product Management Intern",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "summary": "Supported banking CRM migration and product integration efforts.",
+      "highlights": [
+        "Led Salesforce data migration project with over 1M records.",
+        "Wrote SQL validation scripts, avoiding $30K in compliance risks."
+      ]
+    },
+    {
+      "company": "Worldsoft Technologies Pvt Ltd",
+      "position": "Product Manager / Project Manager",
+      "startDate": "2018-01-01",
+      "endDate": "2020-11-30",
+      "summary": "Managed product delivery across e-commerce, retail, and payment platforms.",
+      "highlights": [
+        "Designed merchant onboarding workflows, boosting efficiency and $150K in revenue.",
+        "Streamlined digital payment gateways and reduced fraud-related chargebacks.",
+        "Led end-to-end automation of transaction validation reducing processing time by 30%."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
+      "institution": "Oakland University",
+      "area": "Information Technology Management",
+      "studyType": "M.S.",
+      "startDate": "2022-01-05",
+      "endDate": "2023-12-16"
+    },
+    {
+      "institution": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+      "area": "Computer Science",
+      "studyType": "B.E.",
+      "startDate": "2013-08-08",
+      "endDate": "2017-05-26"
     }
   ],
-  "work": [
+  "skills": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+      "name": "Product Strategy & Execution",
+      "keywords": [
+        "Roadmap Development", "Feature Prioritization", "Go-To-Market Strategy", 
+        "A/B Testing", "MoSCoW", "RICE", "Kano Model", "OKRs", "Backlog Grooming"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+      "name": "Agile & Project Management",
+      "keywords": [
+        "Scrum", "Kanban", "SAFe Agile", "Sprint Planning", 
+        "Risk & Change Management", "Cross-Functional Collaboration"
+      ]
+    },
+    {
+      "name": "Business Analysis & Compliance",
+      "keywords": [
+        "Process Mapping", "SQL", "Python", "Power BI", "Tableau", 
+        "AML", "KYC", "PCI DSS", "Regulatory Reporting"
+      ]
+    },
+    {
+      "name": "Tools & Technologies",
+      "keywords": [
+        "JIRA", "Confluence", "Figma", "Lucidchart", "Postman", 
+        "Miro", "Visio", "AWS", "Azure", "CI/CD", "Microservices"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Data & Compliance Community Initiatives",
+      "position": "Mentor & Speaker",
+      "startDate": "2022-01-01",
+      "summary": "Supporting professional development in fintech compliance and product strategy.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Mentored early-career professionals in data strategy and product planning.",
+        "Delivered sessions on automation and risk frameworks for fintech startups."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Certified Scrum Product Owner (CSPO)",
+      "date": "2023",
+      "awarder": "Scrum Alliance"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Certified Scrum Master (CSM)",
+      "date": "2023",
+      "awarder": "Scrum Alliance"
+    },
+    {
+      "title": "Product Analytics Micro-Certification (PDC)",
+      "date": "2022",
+      "awarder": "Product School"
+    },
+    {
+      "title": "Salesforce Mulesoft Integration Associate",
+      "date": "2023",
+      "awarder": "Salesforce"
+    },
+    {
+      "title": "Advanced Google Analytics",
+      "date": "2022",
+      "awarder": "Google"
     }
   ],
   "references": [
