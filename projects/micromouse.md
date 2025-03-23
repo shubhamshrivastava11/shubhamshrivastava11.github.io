@@ -1,39 +1,66 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+image: img/n5.png
+title: "Netflix Ad Recommendation System"
+date: 2024-01-01
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Product Management
+  - Machine Learning
+  - Python
+  - AWS
+  - Data-Driven Insights
+  - A/B Testing
+  - Personalization
+summary: "A product management-led machine learning initiative to build an intelligent ad recommendation system for Netflix, aimed at improving user engagement, advertiser ROI, and subscription plan optimization."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+<img class="img-fluid" src="img/n4.png">
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+The Netflix Ad Recommendation System was envisioned and led as a product management initiative focused on personalization, monetization, and enhanced user engagement. This system leverages machine learning models, data visualization, and A/B testing to serve contextually relevant ads to users, increasing both customer satisfaction and ad performance.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+<hr>
 
-Here is some code that illustrates how we read values from the line sensors:
+<pre>
+Product Overview
+The goal was to optimize ad delivery using behavioral data to drive intelligent content placement. The project emphasized balance between user experience and business objectives (e.g., advertiser value, subscription plan differentiation).
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+Key Features
+- Personalized Ad Delivery: Uses collaborative filtering and content-based filtering to match ads with user interests.
+- Seamless Ad Insertion: Dynamic ad placements integrated without disrupting content flow.
+- Real-Time Adaptability: Behavioral analytics processed continuously to adapt in-session ad recommendations.
+- A/B Testing Framework: Built-in testing for ad position, frequency, and creative to validate effectiveness.
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+Product Management Contributions
+- Market Research & Competitive Benchmarking: Identified market gaps vs. Hulu, YouTube, and Amazon Prime.
+- Product Strategy & Vision: Defined MVP scope to include premium plan differentiation and high-yield ad segments.
+- Agile Delivery: Worked with ML engineers, UX designers, and business stakeholders to run bi-weekly sprints.
+- Stakeholder Alignment: Engaged advertising, marketing, and engineering teams for KPI definition and GTM planning.
+
+Technology Stack
+- ML Algorithms: KNN, Collaborative Filtering, NLP (Scikit-learn, Python)
+- Backend & Processing: MySQL, Pandas, Numpy, Python
+- Deployment & Cloud: AWS, Docker
+- Visualization: Power BI, matplotlib
+- UX: Figma for wireframes and mockups
+
+Milestones
+- Phase 1: User data ingestion pipeline for behavioral capture.
+- Phase 2: ML model development and training.
+- Phase 3: Integration via REST APIs with Netflix’s ad platform.
+- Phase 4: A/B test launch and feedback loop.
+
+Key KPIs
+- 17% increase in click-through rates (CTR) on recommended ads.
+- 22% boost in advertiser revenue from targeted ad slots.
+- 12% higher user retention on ad-supported plans.
+- Reduced ad fatigue complaints by 28% through frequency capping.
+
+Business Value
+This initiative positions Netflix to better monetize its ad-supported tier, compete with platforms like YouTube, and offer advertisers better ROI. The data-first product approach ensured measurable success through agile delivery, stakeholder buy-in, and continuous optimization.
+</pre>
+
+<hr>
+
+Source: <a href="https://github.com/shubhamshrivastava11/NetflixAdRecommendation"><i class="large github icon"></i>shubhamshrivastava11/NetflixAdRecommendation</a>
