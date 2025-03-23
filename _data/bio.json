@@ -138,20 +138,20 @@
       ]
     }
   ],
-  "awards": [
+  "certifications": [
     {
       "title": "Certified Scrum Product Owner (CSPO)",
-      "date": "2023",
+      "date": "2025",
       "awarder": "Scrum Alliance"
     },
     {
       "title": "Certified Scrum Master (CSM)",
-      "date": "2023",
+      "date": "2025",
       "awarder": "Scrum Alliance"
     },
     {
       "title": "Product Analytics Micro-Certification (PDC)",
-      "date": "2022",
+      "date": "2024",
       "awarder": "Product School"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "title": "Advanced Google Analytics",
-      "date": "2022",
+      "date": "2024",
       "awarder": "Google"
     }
   ],
